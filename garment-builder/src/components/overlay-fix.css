@@ -1,0 +1,35 @@
+/* Fix for overlay issues - ensure main content is visible */
+.garment-builder {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Ensure modals only show when they should */
+.compare-modal:not([data-open="true"]),
+.image-modal:not([data-open="true"]) {
+  display: none !important;
+}
+
+/* Fix any stray overlays */
+.modal-overlay:not(.compare-modal .modal-overlay):not(.image-modal .modal-overlay) {
+  display: none !important;
+}
+
+/* Ensure main content area is visible */
+.builder-content,
+.builder-main {
+  position: relative !important;
+  z-index: 2 !important;
+  background: transparent !important;
+}
+
+/* Fix body overflow */
+body {
+  overflow: visible !important;
+}
+
+/* Ensure the garment builder background doesn't create overlay */
+.garment-builder::before,
+.garment-builder::after {
+  display: none !important;
+}

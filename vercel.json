@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "name": "studioh-garment-builder",
+  "builds": [
+    {
+      "src": "garment-builder/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/versions",
+      "dest": "/api/versions.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "garment-builder/dist/$1"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "functions": {
+    "api/versions.js": {
+      "maxDuration": 30
+    }
+  }
+}

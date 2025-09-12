@@ -1,4 +1,6 @@
-const API_BASE_URL = 'http://localhost:3003/api';
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? '/api' 
+  : 'http://localhost:3003/api';
 
 // Save a new version
 export const saveVersion = async (projectId, image, designOptions, selectedFabrics) => {
@@ -10,10 +12,9 @@ export const saveVersion = async (projectId, image, designOptions, selectedFabri
       },
       body: JSON.stringify({
         projectId,
-        image,
+        imageUrl: image,
         designOptions,
-        selectedFabrics,
-        timestamp: new Date().toISOString()
+        selectedFabrics
       })
     });
     
@@ -31,7 +32,7 @@ export const saveVersion = async (projectId, image, designOptions, selectedFabri
 // Get all versions for a project
 export const getVersions = async (projectId) => {
   try {
-    const response = await fetch(`${API_BASE_URL}/versions/${projectId}`);
+    const response = await fetch(`${API_BASE_URL}/versions?projectId=${projectId}`);
     
     if (!response.ok) {
       throw new Error('Failed to fetch versions');
@@ -47,7 +48,7 @@ export const getVersions = async (projectId) => {
 // Delete a version
 export const deleteVersion = async (versionId) => {
   try {
-    const response = await fetch(`${API_BASE_URL}/versions/${versionId}`, {
+    const response = await fetch(`${API_BASE_URL}/versions?versionId=${versionId}`, {
       method: 'DELETE'
     });
     

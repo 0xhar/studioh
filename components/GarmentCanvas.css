@@ -1,0 +1,296 @@
+.garment-canvas {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.canvas-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.canvas-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.canvas-info {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.canvas-area {
+  flex: 1;
+  position: relative;
+  background: #fafafa;
+  overflow: hidden;
+  min-height: 500px;
+}
+
+.garment-outline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.garment-part {
+  position: absolute;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  min-height: 60px;
+}
+
+.garment-part:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+  transform: scale(1.02);
+}
+
+.garment-part.drag-over {
+  border-color: #4caf50;
+  background: rgba(76, 175, 80, 0.1);
+  border-style: solid;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(76, 175, 80, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); }
+}
+
+.garment-part.has-fabric {
+  border-style: solid;
+  border-color: #667eea;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.part-label {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 28px;
+}
+
+.remove-fabric {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.remove-fabric:hover {
+  background: #ff4757;
+  transform: scale(1.1);
+}
+
+.part-content {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.drop-hint {
+  color: #999;
+  font-size: 0.9rem;
+  text-align: center;
+  pointer-events: none;
+  padding: 20px;
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+  background: white;
+  opacity: 0.8;
+}
+
+.design-feature {
+  position: absolute;
+  background: rgba(102, 126, 234, 0.3);
+  border: 1px solid #667eea;
+  pointer-events: none;
+}
+
+.design-feature.neckline {
+  border: 2px solid #667eea;
+  background: rgba(102, 126, 234, 0.2);
+}
+
+.sleeve-indicator {
+  position: absolute;
+  background: rgba(102, 126, 234, 0.2);
+  border: 1px solid #667eea;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.design-indicators {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  gap: 4px;
+}
+
+.fit-indicator {
+  background: #667eea;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 3px;
+  min-width: 16px;
+  text-align: center;
+}
+
+.measurement-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.measurement-line {
+  position: absolute;
+  background: rgba(255, 193, 7, 0.6);
+  z-index: 1;
+}
+
+.measurement-line.vertical {
+  width: 1px;
+  height: 100%;
+  top: 0;
+}
+
+.measurement-line.horizontal {
+  height: 1px;
+  width: 100%;
+  left: 0;
+}
+
+.measurement-label {
+  position: absolute;
+  background: rgba(255, 193, 7, 0.9);
+  color: #333;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.measurement-line.vertical .measurement-label {
+  top: 10px;
+  left: 5px;
+  transform: rotate(90deg);
+  transform-origin: left center;
+}
+
+.canvas-controls {
+  background: #f8f9fa;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  border-top: 1px solid #e9ecef;
+}
+
+.control-btn {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.control-btn:hover {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+  transform: translateY(-1px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .canvas-header {
+    padding: 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .canvas-header h3 {
+    font-size: 1.1rem;
+  }
+  
+  .canvas-info {
+    font-size: 0.8rem;
+  }
+  
+  .canvas-area {
+    min-height: 400px;
+  }
+  
+  .garment-part {
+    min-height: 50px;
+  }
+  
+  .part-label {
+    padding: 4px 8px;
+    font-size: 0.7rem;
+  }
+  
+  .drop-hint {
+    font-size: 0.8rem;
+    padding: 15px;
+  }
+  
+  .canvas-controls {
+    padding: 10px;
+    gap: 8px;
+  }
+  
+  .control-btn {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+}

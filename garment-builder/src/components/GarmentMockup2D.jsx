@@ -1052,6 +1052,7 @@ const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
       // Save version to backend
       try {
         const projectId = getProjectId();
+        console.log('Frontend: About to save version with image:', combinedImage ? `${combinedImage.substring(0, 50)}...` : 'NO IMAGE');
         await saveVersion(projectId, combinedImage, designOptions, selectedFabrics);
         console.log('Version saved successfully');
       } catch (saveError) {

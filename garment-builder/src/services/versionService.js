@@ -5,6 +5,7 @@ const API_BASE_URL = process.env.NODE_ENV === 'production'
 // Save a new version
 export const saveVersion = async (projectId, image, designOptions, selectedFabrics) => {
   try {
+    console.log('versionService: Sending save request with image:', image ? `${image.substring(0, 50)}...` : 'NO IMAGE');
     const response = await fetch(`${API_BASE_URL}/versions`, {
       method: 'POST',
       headers: {
@@ -12,7 +13,7 @@ export const saveVersion = async (projectId, image, designOptions, selectedFabri
       },
       body: JSON.stringify({
         projectId,
-        imageUrl: image,
+        image: image,
         designOptions,
         selectedFabrics
       })
@@ -38,7 +39,8 @@ export const getVersions = async (projectId) => {
       throw new Error('Failed to fetch versions');
     }
     
-    return await response.json();
+    const data = await response.json();
+    return data.versions || [];
   } catch (error) {
     console.error('Error fetching versions:', error);
     throw error;

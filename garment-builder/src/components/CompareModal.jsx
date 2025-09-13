@@ -313,11 +313,18 @@ const CompareModal = ({ isOpen, onClose, projectId }) => {
                       onClick={() => handleVersionSelect(version)}
                     >
                       <div className="version-image">
-                        <img 
-                          src={version.image} 
-                          alt={`Design version from ${formatDate(version.timestamp)}`}
-                          loading="lazy"
-                        />
+                        {version.image ? (
+                          <img 
+                            src={version.image} 
+                            alt={`Design version from ${formatDate(version.timestamp)}`}
+                            loading="lazy"
+                          />
+                        ) : (
+                          <div className="no-image-placeholder">
+                            <span>🎨</span>
+                            <p>No Image</p>
+                          </div>
+                        )}
                       </div>
                       <div className="version-info">
                         <div className="version-timestamp">

@@ -76,6 +76,8 @@ app.post('/api/versions', async (req, res) => {
   try {
     const { projectId, image, designOptions, selectedFabrics, timestamp } = req.body;
     console.log('API: Saving new version for projectId:', projectId);
+    console.log('API: Image data received:', image ? `${image.substring(0, 50)}...` : 'NO IMAGE DATA');
+    console.log('API: Request body keys:', Object.keys(req.body));
     
     const newVersion = {
       id: uuidv4(),

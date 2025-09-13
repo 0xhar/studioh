@@ -30,6 +30,29 @@ async function initializeStorage() {
   }
 }
 
+// Get all versions with query parameter support
+app.get('/api/versions', async (req, res) => {
+  try {
+    const { projectId } = req.query;
+    console.log('API: Fetching versions for projectId:', projectId);
+    const data = JSON.parse(await fs.readFile(VERSIONS_FILE, 'utf-8'));
+    
+    if (projectId) {
+      const projectVersions = data.versions
+        .filter(v => v.projectId === projectId)
+        .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+        .slice(0, 10); // Limit to last 10 versions
+      console.log('API: Returning', projectVersions.length, 'versions for projectId:', projectId);
+      res.json({ versions: projectVersions });
+    } else {
+      res.json(data);
+    }
+  } catch (error) {
+    console.error('Error fetching versions:', error);
+    res.status(500).json({ error: 'Failed to fetch versions' });
+  }
+});
+
 // Get all versions for a project (last 10, sorted by newest first)
 app.get('/api/versions/:projectId', async (req, res) => {
   try {

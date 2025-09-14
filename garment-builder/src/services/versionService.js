@@ -1,6 +1,10 @@
-const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? '/api' 
-  : 'http://localhost:3003/api';
+// Check if running on Netlify
+const isNetlify = window.location.hostname.includes('netlify');
+const API_BASE_URL = isNetlify 
+  ? '/.netlify/functions' 
+  : (process.env.NODE_ENV === 'production' 
+    ? '/api' 
+    : 'http://localhost:3003/api');
 
 // Save a new version
 export const saveVersion = async (projectId, image, designOptions, selectedFabrics) => {

@@ -11,7 +11,7 @@
 }
 
 .toolbar-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--complementary-navy) 0%, var(--complementary-coral) 100%);
   color: white;
   padding: 20px;
   display: flex;
@@ -93,9 +93,9 @@
 }
 
 .option-button.selected {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--complementary-navy) 0%, var(--complementary-coral) 100%);
   color: white;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
 
@@ -133,7 +133,7 @@
 }
 
 .embellishment-button:hover {
-  background: var(--accent-color, #667eea);
+  background: var(--accent-color, var(--complementary-navy));
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -155,9 +155,9 @@
 }
 
 .embellishment-button.selected {
-  background: var(--accent-color, #667eea);
+  background: var(--accent-color, var(--complementary-navy));
   color: white;
-  border-color: var(--accent-color, #667eea);
+  border-color: var(--accent-color, var(--complementary-navy));
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
 }
@@ -228,13 +228,13 @@
 }
 
 .dropdown-item.selected {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--complementary-navy) 0%, var(--complementary-coral) 100%);
   color: white;
   font-weight: 500;
 }
 
 .dropdown-item.add-custom {
-  color: #667eea;
+  color: var(--complementary-navy);
   font-weight: 500;
   border-top: 1px solid #e9ecef;
 }
@@ -265,7 +265,7 @@
 
 .custom-input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
 }
 
 .custom-input-buttons {
@@ -308,9 +308,9 @@
 }
 
 .add-embellishment-btn:hover {
-  border-color: #667eea !important;
+  border-color: var(--complementary-navy) !important;
   background: #f0f4ff !important;
-  color: #667eea !important;
+  color: var(--complementary-navy) !important;
 }
 
 .add-embellishment-btn .add-icon {
@@ -449,7 +449,7 @@
 }
 
 .custom-description-modal .modal-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--complementary-navy) 0%, var(--complementary-coral) 100%);
   color: white;
   padding: 20px;
   border-radius: 12px 12px 0 0;
@@ -564,7 +564,7 @@
 
 .custom-description-textarea:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
   background: white !important;
   color: #000000 !important;
   box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.15), 0 4px 12px rgba(0, 0, 0, 0.1);

@@ -2,24 +2,92 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { useProjects } from '../../contexts/ProjectContext';
-import { FiGrid, FiList, FiPlus, FiLogOut, FiEdit2, FiTrash2, FiClock } from 'react-icons/fi';
+import { FiGrid, FiList, FiPlus, FiLogOut, FiEdit2, FiTrash2, FiClock, FiEdit3, FiTarget, FiColumns, FiPackage, FiLock } from 'react-icons/fi';
+import HeaderBar from '../HeaderBar';
 import './ProjectsDashboard.css';
 
 const ProjectsDashboard = () => {
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'list'
-  const [showNewProjectModal, setShowNewProjectModal] = useState(false);
-  const [newProjectName, setNewProjectName] = useState('');
   const [editingProject, setEditingProject] = useState(null);
   const { user, logout } = useAuth();
   const { projects, createProject, deleteProject, updateProject } = useProjects();
   const navigate = useNavigate();
 
+  const categories = {
+    design: {
+      title: 'DESIGN',
+      tools: [
+        {
+          id: 'garment-studio',
+          title: 'Garment Design Studio',
+          description: 'Create structured designs with professional garment builder',
+          icon: FiEdit3,
+          isLocked: false,
+          isActive: true
+        },
+        {
+          id: 'fabric-calculator',
+          title: 'Fabric Quantity Calculator',
+          description: 'Calculate exact fabric requirements for your designs',
+          icon: FiTarget,
+          isLocked: true,
+          comingSoon: true
+        },
+        {
+          id: 'comparison-tool',
+          title: 'Design Comparison Tool',
+          description: 'Compare multiple designs side by side',
+          icon: FiColumns,
+          isLocked: true,
+          comingSoon: true
+        },
+        {
+          id: 'pattern-store',
+          title: 'Pattern Store',
+          description: 'Browse and purchase professional patterns',
+          icon: FiPackage,
+          isLocked: true,
+          comingSoon: true
+        }
+      ]
+    }
+  };
+
   const handleCreateProject = () => {
-    const projectName = newProjectName.trim() || 'Untitled Design';
-    const newProject = createProject(projectName);
-    setShowNewProjectModal(false);
-    setNewProjectName('');
-    navigate(`/design/${newProject.id}`);
+    console.log('=== handleCreateProject function called ===');
+    console.log('createProject function:', createProject);
+    console.log('user object:', user);
+    
+    try {
+      const projectName = 'Untitled Design';
+      console.log('Creating project with name:', projectName);
+      
+      if (!createProject) {
+        console.error('createProject function is not available!');
+        alert('Error: Project creation function not available');
+        return;
+      }
+      
+      if (!user) {
+        console.error('User is not logged in!');
+        alert('Error: You must be logged in to create a project');
+        return;
+      }
+      
+      console.log('Calling createProject function...');
+      const newProject = createProject(projectName);
+      console.log('New project created:', newProject);
+      
+      if (newProject && newProject.id) {
+        navigate(`/design/${newProject.id}`);
+      } else {
+        console.error('Failed to create project - invalid project object');
+        alert('Failed to create project. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error creating project:', error);
+      alert('An error occurred while creating the project. Please try again.');
+    }
   };
 
   const handleOpenProject = (projectId) => {
@@ -61,45 +129,89 @@ const ProjectsDashboard = () => {
 
   return (
     <div className="projects-dashboard">
-      <header className="dashboard-header">
-        <div className="header-left">
-          <h1>My Design Projects</h1>
-          <p>Welcome back, {user?.name || 'Designer'}!</p>
-        </div>
-        <div className="header-right">
-          <div className="view-toggle">
-            <button 
-              className={`view-btn ${viewMode === 'grid' ? 'active' : ''}`}
-              onClick={() => setViewMode('grid')}
-              title="Grid View"
-            >
-              <FiGrid />
-            </button>
-            <button 
-              className={`view-btn ${viewMode === 'list' ? 'active' : ''}`}
-              onClick={() => setViewMode('list')}
-              title="List View"
-            >
-              <FiList />
-            </button>
+      <HeaderBar />
+      
+      <div className="dashboard-layout-with-sidebar">
+        {/* Sidebar */}
+        <div className="projects-sidebar">
+          <div className="sidebar-content">
+            {Object.entries(categories).map(([categoryKey, category]) => (
+              <div key={categoryKey} className="category-section">
+                <div className="category-header">
+                  <h3 className="category-title">{category.title}</h3>
+                </div>
+                <div className="tools-list">
+                  {category.tools.map((tool) => (
+                    <div
+                      key={tool.id}
+                      className={`tool-item ${tool.isLocked ? 'locked' : ''} ${tool.isActive ? 'active' : ''}`}
+                    >
+                      <div className="tool-icon">
+                        <tool.icon />
+                      </div>
+                      <div className="tool-content">
+                        <div className="tool-header">
+                          <h4 className="tool-title">{tool.title}</h4>
+                          {tool.isLocked && <FiLock className="lock-icon" />}
+                        </div>
+                        <p className="tool-description">{tool.description}</p>
+                        {tool.comingSoon && (
+                          <span className="coming-soon-badge">Coming Soon</span>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-          <button className="logout-btn" onClick={handleLogout}>
-            <FiLogOut /> Logout
-          </button>
         </div>
-      </header>
 
-      <div className="dashboard-content">
-        <div className="projects-section">
-          <div className="section-header">
-            <h2>Your Projects ({projects.length})</h2>
-            <button 
-              className="new-project-btn"
-              onClick={() => setShowNewProjectModal(true)}
-            >
-              <FiPlus /> New Project
-            </button>
+        {/* Main Content */}
+        <div className="projects-main-area">
+          <div className="tab-header">
+            <div className="tab-header-inner">
+              <div className="tab-section">
+                <div className="tab-item active">
+                  My Design Projects ({projects.length})
+                </div>
+              </div>
+              <div className="tab-actions">
+                <div className="view-toggle">
+                  <button 
+                    className={`view-btn ${viewMode === 'grid' ? 'active' : ''}`}
+                    onClick={() => setViewMode('grid')}
+                    title="Grid View"
+                  >
+                    <FiGrid />
+                  </button>
+                  <button 
+                    className={`view-btn ${viewMode === 'list' ? 'active' : ''}`}
+                    onClick={() => setViewMode('list')}
+                    title="List View"
+                  >
+                    <FiList />
+                  </button>
+                </div>
+                <button 
+                  className="new-project-btn"
+                  onClick={() => {
+                    console.log('New Project button clicked - creating project directly');
+                    handleCreateProject();
+                  }}
+                >
+                  <FiPlus /> New Project
+                </button>
+                <button className="logout-btn" onClick={handleLogout}>
+                  <FiLogOut /> Logout
+                </button>
+              </div>
+            </div>
           </div>
+
+          <div className="dashboard-content">
+            <div className="dashboard-content-inner">
+              <div className="projects-section">
 
           {projects.length === 0 ? (
             <div className="empty-state">
@@ -107,7 +219,7 @@ const ProjectsDashboard = () => {
               <p>Create your first garment design project to get started!</p>
               <button 
                 className="create-first-btn"
-                onClick={() => setShowNewProjectModal(true)}
+                onClick={handleCreateProject}
               >
                 <FiPlus /> Create Your First Project
               </button>
@@ -174,32 +286,11 @@ const ProjectsDashboard = () => {
               ))}
             </div>
           )}
-        </div>
-      </div>
-
-      {showNewProjectModal && (
-        <div className="modal-overlay" onClick={() => setShowNewProjectModal(false)}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <h2>Create New Project</h2>
-            <input
-              type="text"
-              placeholder="Enter project name..."
-              value={newProjectName}
-              onChange={(e) => setNewProjectName(e.target.value)}
-              onKeyDown={(e) => e.key === 'Enter' && handleCreateProject()}
-              autoFocus
-            />
-            <div className="modal-actions">
-              <button className="cancel-btn" onClick={() => setShowNewProjectModal(false)}>
-                Cancel
-              </button>
-              <button className="create-btn" onClick={handleCreateProject}>
-                Create Project
-              </button>
+              </div>
             </div>
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import './GarmentMockup2D.css';
 import { saveVersion } from '../services/versionService';
 import { getProjectId } from '../utils/projectUtils';
 
-const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
+const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef, refreshProjectThumbnail, projectId }) => {
   const [generatedImage, setGeneratedImage] = useState(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState(null);
@@ -201,6 +201,7 @@ const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
     return fabricImages;
   };
 
+
   // Generate dynamic prompt by filling placeholders for combined front and back view
   const generateEnhancedPrompt = () => {
     // Extract user selections
@@ -385,23 +386,37 @@ const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
     }
     
     console.log('Final OpenAI prompt:', enhancedPrompt);
+    console.log('OpenAI API Key available:', !!import.meta.env.VITE_OPENAI_API_KEY);
+    console.log('OpenAI URL:', AI_CONFIG.openai.url);
+
+    const requestBody = {
+      model: "dall-e-3",
+      prompt: enhancedPrompt.slice(0, 4000), // DALL-E 3 has prompt length limits
+      n: 1,
+      size: import.meta.env.VITE_IMAGE_SIZE || "1792x1024",
+      quality: import.meta.env.VITE_IMAGE_QUALITY || "hd",
+      style: "natural"
+    };
+    console.log('Request body:', requestBody);
 
     const response = await fetch(AI_CONFIG.openai.url, {
       method: 'POST',
       headers: AI_CONFIG.openai.headers,
-      body: JSON.stringify({
-        model: "dall-e-3",
-        prompt: enhancedPrompt.slice(0, 4000), // DALL-E 3 has prompt length limits
-        n: 1,
-        size: import.meta.env.VITE_IMAGE_SIZE || "1792x1024",
-        quality: import.meta.env.VITE_IMAGE_QUALITY || "hd",
-        style: "natural"
-      })
+      body: JSON.stringify(requestBody)
     });
 
+    console.log('Response status:', response.status, response.statusText);
+    
     if (!response.ok) {
-      const error = await response.json();
-      throw new Error(`OpenAI API Error: ${error.error?.message || 'Unknown error'}`);
+      let errorDetails;
+      try {
+        errorDetails = await response.json();
+        console.error('OpenAI API Error Details:', errorDetails);
+      } catch (jsonError) {
+        console.error('Failed to parse error response:', jsonError);
+        errorDetails = { error: { message: `HTTP ${response.status}: ${response.statusText}` } };
+      }
+      throw new Error(`OpenAI API Error: ${errorDetails.error?.message || 'Unknown error'}`);
     }
 
     const data = await response.json();
@@ -668,7 +683,7 @@ const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
           ${garmentType.toUpperCase()} Design Preview
         </text>
         <text x="${width/2}" y="${height - 40}" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
-          ${prompt.userSelections?.neckline || 'round'} neckline • ${prompt.userSelections?.sleeves || 'half'} sleeves • ${prompt.userSelections?.fit || 'regular'} fit
+          ${prompt.userSelections?.neckline || 'round'} neckline, ${prompt.userSelections?.sleeves || 'half'} sleeves, ${prompt.userSelections?.fit || 'regular'} fit
         </text>
         <text x="${width/2}" y="${height - 20}" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">
           Demo Mode - AI Generation Unavailable
@@ -1020,13 +1035,19 @@ const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
       font-size: 14px;
       animation: slideIn 0.3s ease-out;
     `;
-    successMsg.textContent = `✓ Downloaded: ${filename}`;
+    successMsg.textContent = `Downloaded: ${filename}`;
     document.body.appendChild(successMsg);
     
     setTimeout(() => successMsg.remove(), 3000);
   };
 
   const handleGenerateImage = async () => {
+    // Prevent multiple simultaneous generation calls
+    if (isGenerating) {
+      console.log('Generation already in progress, ignoring call');
+      return;
+    }
+    
     setIsGenerating(true);
     setError(null);
     setGenerationProgress(0);
@@ -1051,10 +1072,16 @@ const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
       
       // Save version to backend
       try {
-        const projectId = getProjectId();
+        const currentProjectId = projectId || getProjectId();
         console.log('Frontend: About to save version with image:', combinedImage ? `${combinedImage.substring(0, 50)}...` : 'NO IMAGE');
-        await saveVersion(projectId, combinedImage, designOptions, selectedFabrics);
+        await saveVersion(currentProjectId, combinedImage, designOptions, selectedFabrics);
         console.log('Version saved successfully');
+        
+        // Refresh project thumbnail after successful save
+        if (refreshProjectThumbnail && currentProjectId) {
+          console.log('Refreshing project thumbnail after image generation...');
+          await refreshProjectThumbnail(currentProjectId);
+        }
       } catch (saveError) {
         console.error('Failed to save version:', saveError);
         // Don't block the UI if saving fails, just log the error
@@ -1128,7 +1155,7 @@ const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
           {error && (
             <div className="error-message">
               <div className="error-content">
-                <span>⚠️ {error}</span>
+                <span>Warning: {error}</span>
                 <div className="error-actions">
                   <button onClick={handleGenerateImage} className="retry-btn">
                     Try Again
@@ -1254,7 +1281,7 @@ const GarmentMockup2D = ({ designOptions, selectedFabrics, onGenerateRef }) => {
             </div>
             <div className="modal-footer-image">
               <p className="image-info">
-                Click and drag to pan • Use zoom controls to resize • Click outside to close
+                Click and drag to pan - Use zoom controls to resize - Click outside to close
               </p>
             </div>
           </div>

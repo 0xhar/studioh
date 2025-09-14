@@ -1,0 +1,69 @@
+/* Studio H Professional Theme - Based on Logo Colors */
+:root {
+  /* Primary Brand Colors from Logo */
+  --primary-gold: #F4D03F;
+  --primary-gold-hover: #F1C40F;
+  --primary-gold-light: #F7DC6F;
+  --primary-gold-dark: #D4AC0D;
+  
+  --primary-teal: #85C1E9;
+  --primary-teal-hover: #5DADE2;
+  --primary-teal-light: #AED6F1;
+  --primary-teal-dark: #3498DB;
+  
+  /* Complementary Professional Colors - Navy & Coral */
+  --complementary-navy: #2C3E50;
+  --complementary-navy-hover: #34495E;
+  --complementary-navy-light: #52708D;
+  --complementary-navy-dark: #1B2631;
+  
+  --complementary-coral: #E67E22;
+  --complementary-coral-hover: #D68910;
+  --complementary-coral-light: #F5B041;
+  --complementary-coral-dark: #A04000;
+  
+  /* Professional Grays */
+  --gray-50: #FAFAFA;
+  --gray-100: #F5F5F5;
+  --gray-200: #EEEEEE;
+  --gray-300: #E0E0E0;
+  --gray-400: #BDBDBD;
+  --gray-500: #9E9E9E;
+  --gray-600: #757575;
+  --gray-700: #616161;
+  --gray-800: #424242;
+  --gray-900: #212121;
+  
+  /* Semantic Colors */
+  --white: #FFFFFF;
+  --black: #000000;
+  --success: #27AE60;
+  --warning: #F39C12;
+  --error: #E74C3C;
+  --info: var(--primary-teal);
+  
+  /* Application Theme */
+  --header-bg: var(--primary-teal);
+  --sidebar-bg: var(--gray-800);
+  --main-bg: var(--white);
+  --card-bg: var(--white);
+  --border-color: var(--gray-200);
+  
+  /* Text Colors */
+  --text-primary: var(--gray-900);
+  --text-secondary: var(--gray-700);
+  --text-muted: var(--gray-500);
+  --text-white: var(--white);
+  --text-on-primary: var(--white);
+  
+  /* Interactive States */
+  --hover-overlay: rgba(0, 0, 0, 0.05);
+  --active-overlay: rgba(0, 0, 0, 0.1);
+  --focus-ring: var(--primary-teal);
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}

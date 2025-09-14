@@ -471,6 +471,936 @@
       },
       "timestamp": "2025-09-13T09:45:40.906Z",
       "createdAt": "2025-09-13T09:45:40.906Z"
+    },
+    {
+      "id": "262dbea8-788d-483c-a3fc-50ee1b582543",
+      "projectId": "1757587103868",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-Np0W0zpUMF5hyNEG6zVTnups.png?st=2025-09-14T07%3A55%3A43Z&se=2025-09-14T09%3A55%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8eb2c87c-0531-4dab-acb3-b5e2adddce6c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T03%3A03%3A53Z&ske=2025-09-15T03%3A03%3A53Z&sks=b&skv=2024-08-04&sig=XByTSZs3sC6UVxNXrYtvKQLI6Ri5HZ83NYGXF3grsMQ%3D",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T08:55:43.591Z",
+      "createdAt": "2025-09-14T08:55:43.591Z"
+    },
+    {
+      "id": "7bd70c60-2637-4a4b-8ccc-010a01237063",
+      "projectId": "1757587103868",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-dshZuYk9x1vBy4dis33QtMTw.png?st=2025-09-14T07%3A55%3A43Z&se=2025-09-14T09%3A55%3A43Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T04%3A46%3A44Z&ske=2025-09-15T04%3A46%3A44Z&sks=b&skv=2024-08-04&sig=/pHxI1yULC1Pd%2Bnf6z15woF8yVJzKZaTPtWnWSOFYH8%3D",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T08:55:43.753Z",
+      "createdAt": "2025-09-14T08:55:43.753Z"
+    },
+    {
+      "id": "30ed01bc-2b4e-4a27-af8c-4cedfdf10c21",
+      "projectId": "1757587103868",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-iOFZy2k8XDwbWKaMJpP8q0M5.png?st=2025-09-14T07%3A55%3A44Z&se=2025-09-14T09%3A55%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=0e2a3d55-e963-40c9-9c89-2a1aa28cb3ac&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T08%3A23%3A19Z&ske=2025-09-15T08%3A23%3A19Z&sks=b&skv=2024-08-04&sig=1TTNqnqqbj12iHsPi0E2tmKilYuhjwGeW9pqkvPTfEY%3D",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T08:55:44.492Z",
+      "createdAt": "2025-09-14T08:55:44.492Z"
+    },
+    {
+      "id": "61649803-ca6f-44dd-a271-2a5df43bf268",
+      "projectId": "1757587103868",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-gauFzeCpj2E7HNGPgaTVeuYA.png?st=2025-09-14T07%3A55%3A44Z&se=2025-09-14T09%3A55%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T06%3A00%3A35Z&ske=2025-09-15T06%3A00%3A35Z&sks=b&skv=2024-08-04&sig=3%2BVmRkSiMEGgQUgKMhcUeDIrg3hjTZXiq6bQCc1C28s%3D",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T08:55:44.933Z",
+      "createdAt": "2025-09-14T08:55:44.933Z"
+    },
+    {
+      "id": "bb39216b-29d7-476d-9267-f286203040df",
+      "projectId": "projects",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-TASxuIrQdeSFJMtdrU7zjPX3.png?st=2025-09-14T08%3A29%3A54Z&se=2025-09-14T10%3A29%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8eb2c87c-0531-4dab-acb3-b5e2adddce6c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T05%3A56%3A06Z&ske=2025-09-15T05%3A56%3A06Z&sks=b&skv=2024-08-04&sig=CcwUqWoJa%2BK%2BokYJG%2B1yl8UiBD5e0gh67GtjkgWU6xc%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:29:54.650Z",
+      "createdAt": "2025-09-14T09:29:54.650Z"
+    },
+    {
+      "id": "e00c3932-c612-4aea-8e2a-e803ec06245b",
+      "projectId": "projects",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-FPHpi4i8uxcrP6P1h3zJ15QY.png?st=2025-09-14T08%3A29%3A54Z&se=2025-09-14T10%3A29%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=38e27a3b-6174-4d3e-90ac-d7d9ad49543f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T05%3A43%3A20Z&ske=2025-09-15T05%3A43%3A20Z&sks=b&skv=2024-08-04&sig=f%2BIpuQlEZuJd3hXPt7E2LluKK4JpHXNHD2Y2YUwUvCs%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:29:55.266Z",
+      "createdAt": "2025-09-14T09:29:55.266Z"
+    },
+    {
+      "id": "9131131b-ec2a-4be9-a66a-9206fe586897",
+      "projectId": "projects",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-k5jYZA2Sbf42893uKo4qhFdd.png?st=2025-09-14T08%3A29%3A56Z&se=2025-09-14T10%3A29%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=31d50bd4-689f-439b-a875-f22bd677744d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T09%3A29%3A56Z&ske=2025-09-15T09%3A29%3A56Z&sks=b&skv=2024-08-04&sig=6Ej87Qc1BxKLaOTkV8BcW3tkv%2BHMMp8mssuzp/OcuBI%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:29:56.877Z",
+      "createdAt": "2025-09-14T09:29:56.877Z"
+    },
+    {
+      "id": "f3a240d3-5bdb-446e-857e-594a3a5d0a1d",
+      "projectId": "projects",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-Tc7Ekd7FbFEYNidD75juwgO6.png?st=2025-09-14T08%3A29%3A57Z&se=2025-09-14T10%3A29%3A57Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=38e27a3b-6174-4d3e-90ac-d7d9ad49543f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T06%3A04%3A36Z&ske=2025-09-15T06%3A04%3A36Z&sks=b&skv=2024-08-04&sig=8CIcv4m91SYeiJai1zHMAJwI1WT7xzuKey6hJ%2BvT2jA%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:29:57.699Z",
+      "createdAt": "2025-09-14T09:29:57.699Z"
+    },
+    {
+      "id": "10cc8c24-282c-4199-a921-48dcae3e8868",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-hUUikBa67aB47npZJo3zQkDu.png?st=2025-09-14T08%3A30%3A21Z&se=2025-09-14T10%3A30%3A21Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T05%3A50%3A30Z&ske=2025-09-15T05%3A50%3A30Z&sks=b&skv=2024-08-04&sig=QQ8GycqTn4os31m1qjPHs8EHyTilxPc%2BB7bMp5zx7ik%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:30:21.545Z",
+      "createdAt": "2025-09-14T09:30:21.545Z"
+    },
+    {
+      "id": "a777bef5-0593-460c-9385-12abc811fe09",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-2tB4XPG2C1Vpct3Sxj8uhmkk.png?st=2025-09-14T08%3A30%3A24Z&se=2025-09-14T10%3A30%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T04%3A01%3A26Z&ske=2025-09-15T04%3A01%3A26Z&sks=b&skv=2024-08-04&sig=Aw8TZM6ibYHCjDVixl7g74t0Qgv7Ru9lw9JCfvYFJf4%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:30:24.291Z",
+      "createdAt": "2025-09-14T09:30:24.291Z"
+    },
+    {
+      "id": "c57fd744-a861-4c44-8d11-12d57281c77d",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-T1SNIsvbqVqiAIrcQgXNjG30.png?st=2025-09-14T08%3A30%3A24Z&se=2025-09-14T10%3A30%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T06%3A56%3A55Z&ske=2025-09-15T06%3A56%3A55Z&sks=b&skv=2024-08-04&sig=RLvXCJXyAl5yH9u6etbR5KW%2BHYdZkLfaOgA2toUCJhE%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:30:25.063Z",
+      "createdAt": "2025-09-14T09:30:25.063Z"
+    },
+    {
+      "id": "cb443994-aead-450f-9825-cac78809dc96",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-DXNqTkoy1uTGICzn4ECGd5bh.png?st=2025-09-14T08%3A30%3A27Z&se=2025-09-14T10%3A30%3A27Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8eb2c87c-0531-4dab-acb3-b5e2adddce6c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T01%3A48%3A09Z&ske=2025-09-15T01%3A48%3A09Z&sks=b&skv=2024-08-04&sig=D2SD%2BVFaAz8AFGslhwMm4T7Gz89eIc4cUD9x1AQHyTg%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:30:27.213Z",
+      "createdAt": "2025-09-14T09:30:27.213Z"
+    },
+    {
+      "id": "556277f4-400a-4166-8146-8f02a3058198",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-N6d1bWSykEJKQf0GE5nbZ0lF.png?st=2025-09-14T08%3A30%3A28Z&se=2025-09-14T10%3A30%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T06%3A25%3A39Z&ske=2025-09-15T06%3A25%3A39Z&sks=b&skv=2024-08-04&sig=7T6aZGHxsg3l/jJ8pdkBW6Rj23eS%2BTJVJDf5ZnAWghM%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:30:28.815Z",
+      "createdAt": "2025-09-14T09:30:28.815Z"
+    },
+    {
+      "id": "8ff12b4c-42ed-41a8-8d7c-2f6186fa05bc",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-6eI3ArydXMyZjFWKF0j6PUu8.png?st=2025-09-14T08%3A30%3A30Z&se=2025-09-14T10%3A30%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=38e27a3b-6174-4d3e-90ac-d7d9ad49543f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T06%3A08%3A05Z&ske=2025-09-15T06%3A08%3A05Z&sks=b&skv=2024-08-04&sig=sbdv5a%2Bp7BAEF7agE43c%2BIDqAFpigJtf/O2eK6DmjAI%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:30:30.413Z",
+      "createdAt": "2025-09-14T09:30:30.413Z"
+    },
+    {
+      "id": "9efcd797-aecc-4764-aa52-0575f0024533",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-RePz6rmaH5fgmmxRFG0bqy3B.png?st=2025-09-14T08%3A30%3A30Z&se=2025-09-14T10%3A30%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=31d50bd4-689f-439b-a875-f22bd677744d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T09%3A30%3A30Z&ske=2025-09-15T09%3A30%3A30Z&sks=b&skv=2024-08-04&sig=y7YHHjOrPUWeiWWaRLcpA3G601cGe0vxTodL%2BSS7jVs%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:30:30.818Z",
+      "createdAt": "2025-09-14T09:30:30.818Z"
+    },
+    {
+      "id": "04a16e17-a8f2-4264-ae0f-a947fe9d1f08",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-UZLi3zjDMQ68M9Z571p5LIY1.png?st=2025-09-14T08%3A30%3A31Z&se=2025-09-14T10%3A30%3A31Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=0e2a3d55-e963-40c9-9c89-2a1aa28cb3ac&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T01%3A39%3A11Z&ske=2025-09-15T01%3A39%3A11Z&sks=b&skv=2024-08-04&sig=K6uY3Re7IxOdYqofC3nWY83WQST9h/vxPmEoW7Td%2BkI%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T09:30:31.487Z",
+      "createdAt": "2025-09-14T09:30:31.487Z"
+    },
+    {
+      "id": "0f227981-69fa-4342-8368-d4ae7a0a43d0",
+      "projectId": "1757586415110",
+      "image": "data:image/svg+xml;base64,CiAgICAgIDxzdmcgd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQ6ICNmOGY5ZmE7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgIDxwYXR0ZXJuIGlkPSJzdHJpcGVQYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzU0QTBGRiIvPgogICAgICAgICAgICA8cmVjdCB4PSI1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzRFQ0RDNCIvPgogICAgICAgICAgPC9wYXR0ZXJuPgogICAgICAgICAgPHBhdHRlcm4gaWQ9ImRvdFBhdHRlcm4iIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjMiIGZpbGw9IiM0RUNEQzQiLz4KICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTRBMEZGIi8+CiAgICAgICAgICA8L3BhdHRlcm4+CiAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imdhcm1lbnRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1NEEwRkY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzRFQ0RDNDtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIAogICAgICAgIDwhLS0gRnJvbnQgVmlldyAtLT4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+RnJvbnQgVmlldzwvdGV4dD4KICAgICAgICAgIDwhLS0gR2FybWVudCBCb2R5IC0tPgogICAgICAgICAgPHBhdGggZD0iTTUwIDUwIFE1MCA0NSA1NSA0NSBMODUgNDUgUTkwIDQ1IDkwIDUwIEw5MCAyMDAgUTkwIDIxMCA4NSAyMTAgTDU1IDIxMCBRNTAgMjEwIDUwIDIwMCBaIiAKICAgICAgICAgICAgICAgIGZpbGw9InVybCgjc3RyaXBlUGF0dGVybikiIAogICAgICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gU2xlZXZlcyAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI0MCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iIzU0QTBGRiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI4MCIgcng9IjE1IiByeT0iMzAiIGZpbGw9IiM1NEEwRkYiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgICA8IS0tIE5lY2tsaW5lIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjcwIiBjeT0iNTUiIHJ4PSIxMCIgcnk9IjgiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gQmFjayBWaWV3IC0tPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwMCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+QmFjayBWaWV3PC90ZXh0PgogICAgICAgICAgPCEtLSBHYXJtZW50IEJvZHkgLS0+CiAgICAgICAgICA8cGF0aCBkPSJNNTAgNTAgUTUwIDQ1IDU1IDQ1IEw4NSA0NSBROTAgNDUgOTAgNTAgTDkwIDIwMCBROTAgMjEwIDg1IDIxMCBMNTUgMjEwIFE1MCAyMTAgNTAgMjAwIFoiIAogICAgICAgICAgICAgICAgZmlsbD0idXJsKCNzdHJpcGVQYXR0ZXJuKSIgCiAgICAgICAgICAgICAgICBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPCEtLSBTbGVldmVzIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjQwIiBjeT0iODAiIHJ4PSIxNSIgcnk9IjMwIiBmaWxsPSIjNTRBMEZGIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjEwMCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iIzU0QTBGRiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gQmFjayBOZWNrbGluZSAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI3MCIgY3k9IjU1IiByeD0iOCIgcnk9IjYiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gRGVzaWduIEluZm8gLS0+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzMiPgogICAgICAgICAgS1VSVEkgRGVzaWduIFByZXZpZXcKICAgICAgICA8L3RleHQ+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzY2NiI+CiAgICAgICAgICByb3VuZCBuZWNrbGluZSBuZWNrbGluZSwgaGFsZiBzbGVldmVzIHNsZWV2ZXMsIHJlZ3VsYXIgZml0IGZpdAogICAgICAgIDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSIzMDAiIHk9Ijc4MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5Ij4KICAgICAgICAgIERlbW8gTW9kZSAtIEFJIEdlbmVyYXRpb24gVW5hdmFpbGFibGUKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAg",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T10:18:14.277Z",
+      "createdAt": "2025-09-14T10:18:14.277Z"
+    },
+    {
+      "id": "e422374b-06f0-4298-9e3c-5cd89a38b6fe",
+      "projectId": "1757586415110",
+      "image": "data:image/svg+xml;base64,CiAgICAgIDxzdmcgd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQ6ICNmOGY5ZmE7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgIDxwYXR0ZXJuIGlkPSJzdHJpcGVQYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzQ1QjdEMSIvPgogICAgICAgICAgICA8cmVjdCB4PSI1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzk2Q0VCNCIvPgogICAgICAgICAgPC9wYXR0ZXJuPgogICAgICAgICAgPHBhdHRlcm4gaWQ9ImRvdFBhdHRlcm4iIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjMiIGZpbGw9IiM5NkNFQjQiLz4KICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjNDVCN0QxIi8+CiAgICAgICAgICA8L3BhdHRlcm4+CiAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imdhcm1lbnRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM0NUI3RDE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6Izk2Q0VCNDtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIAogICAgICAgIDwhLS0gRnJvbnQgVmlldyAtLT4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+RnJvbnQgVmlldzwvdGV4dD4KICAgICAgICAgIDwhLS0gR2FybWVudCBCb2R5IC0tPgogICAgICAgICAgPHBhdGggZD0iTTUwIDUwIFE1MCA0NSA1NSA0NSBMODUgNDUgUTkwIDQ1IDkwIDUwIEw5MCAyMDAgUTkwIDIxMCA4NSAyMTAgTDU1IDIxMCBRNTAgMjEwIDUwIDIwMCBaIiAKICAgICAgICAgICAgICAgIGZpbGw9InVybCgjc3RyaXBlUGF0dGVybikiIAogICAgICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gU2xlZXZlcyAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI0MCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iIzQ1QjdEMSIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI4MCIgcng9IjE1IiByeT0iMzAiIGZpbGw9IiM0NUI3RDEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgICA8IS0tIE5lY2tsaW5lIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjcwIiBjeT0iNTUiIHJ4PSIxMCIgcnk9IjgiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gQmFjayBWaWV3IC0tPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwMCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+QmFjayBWaWV3PC90ZXh0PgogICAgICAgICAgPCEtLSBHYXJtZW50IEJvZHkgLS0+CiAgICAgICAgICA8cGF0aCBkPSJNNTAgNTAgUTUwIDQ1IDU1IDQ1IEw4NSA0NSBROTAgNDUgOTAgNTAgTDkwIDIwMCBROTAgMjEwIDg1IDIxMCBMNTUgMjEwIFE1MCAyMTAgNTAgMjAwIFoiIAogICAgICAgICAgICAgICAgZmlsbD0idXJsKCNzdHJpcGVQYXR0ZXJuKSIgCiAgICAgICAgICAgICAgICBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPCEtLSBTbGVldmVzIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjQwIiBjeT0iODAiIHJ4PSIxNSIgcnk9IjMwIiBmaWxsPSIjNDVCN0QxIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjEwMCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iIzQ1QjdEMSIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gQmFjayBOZWNrbGluZSAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI3MCIgY3k9IjU1IiByeD0iOCIgcnk9IjYiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gRGVzaWduIEluZm8gLS0+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzMiPgogICAgICAgICAgS1VSVEkgRGVzaWduIFByZXZpZXcKICAgICAgICA8L3RleHQ+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzY2NiI+CiAgICAgICAgICByb3VuZCBuZWNrbGluZSBuZWNrbGluZSwgaGFsZiBzbGVldmVzIHNsZWV2ZXMsIHJlZ3VsYXIgZml0IGZpdAogICAgICAgIDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSIzMDAiIHk9Ijc4MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5Ij4KICAgICAgICAgIERlbW8gTW9kZSAtIEFJIEdlbmVyYXRpb24gVW5hdmFpbGFibGUKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAg",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T10:18:14.590Z",
+      "createdAt": "2025-09-14T10:18:14.590Z"
+    },
+    {
+      "id": "407bd10a-bf23-4721-bd9e-c5353b896173",
+      "projectId": "1757587103868",
+      "image": "data:image/svg+xml;base64,CiAgICAgIDxzdmcgd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQ6ICNmOGY5ZmE7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgIDxwYXR0ZXJuIGlkPSJzdHJpcGVQYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iI0ZGOUZGMyIvPgogICAgICAgICAgICA8cmVjdCB4PSI1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iI0ZGNkI2QiIvPgogICAgICAgICAgPC9wYXR0ZXJuPgogICAgICAgICAgPHBhdHRlcm4gaWQ9ImRvdFBhdHRlcm4iIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjMiIGZpbGw9IiNGRjZCNkIiLz4KICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjRkY5RkYzIi8+CiAgICAgICAgICA8L3BhdHRlcm4+CiAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imdhcm1lbnRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRjlGRjM7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGNkI2QjtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIAogICAgICAgIDwhLS0gRnJvbnQgVmlldyAtLT4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+RnJvbnQgVmlldzwvdGV4dD4KICAgICAgICAgIDwhLS0gR2FybWVudCBCb2R5IC0tPgogICAgICAgICAgPHBhdGggZD0iTTUwIDUwIFE1MCA0NSA1NSA0NSBMODUgNDUgUTkwIDQ1IDkwIDUwIEw5MCAyMDAgUTkwIDIxMCA4NSAyMTAgTDU1IDIxMCBRNTAgMjEwIDUwIDIwMCBaIiAKICAgICAgICAgICAgICAgIGZpbGw9InVybCgjZ2FybWVudEdyYWRpZW50KSIgCiAgICAgICAgICAgICAgICBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPCEtLSBTbGVldmVzIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjQwIiBjeT0iODAiIHJ4PSIxNSIgcnk9IjMwIiBmaWxsPSIjRkY5RkYzIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjEwMCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iI0ZGOUZGMyIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gTmVja2xpbmUgLS0+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iNzAiIGN5PSI1NSIgcng9IjEwIiByeT0iOCIgZmlsbD0iI2Y4ZjlmYSIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICA8L2c+CiAgICAgICAgCiAgICAgICAgPCEtLSBCYWNrIFZpZXcgLS0+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLCA1MCkiPgogICAgICAgICAgPHRleHQgeD0iNjAiIHk9IjMwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMzMzIj5CYWNrIFZpZXc8L3RleHQ+CiAgICAgICAgICA8IS0tIEdhcm1lbnQgQm9keSAtLT4KICAgICAgICAgIDxwYXRoIGQ9Ik01MCA1MCBRNTAgNDUgNTUgNDUgTDg1IDQ1IFE5MCA0NSA5MCA1MCBMOTAgMjAwIFE5MCAyMTAgODUgMjEwIEw1NSAyMTAgUTUwIDIxMCA1MCAyMDAgWiIgCiAgICAgICAgICAgICAgICBmaWxsPSJ1cmwoI2dhcm1lbnRHcmFkaWVudCkiIAogICAgICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gU2xlZXZlcyAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI0MCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iI0ZGOUZGMyIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI4MCIgcng9IjE1IiByeT0iMzAiIGZpbGw9IiNGRjlGRjMiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgICA8IS0tIEJhY2sgTmVja2xpbmUgLS0+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iNzAiIGN5PSI1NSIgcng9IjgiIHJ5PSI2IiBmaWxsPSIjZjhmOWZhIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgIDwvZz4KICAgICAgICAKICAgICAgICA8IS0tIERlc2lnbiBJbmZvIC0tPgogICAgICAgIDx0ZXh0IHg9IjMwMCIgeT0iNzQwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzMzIj4KICAgICAgICAgIExFSEVOR0EgRGVzaWduIFByZXZpZXcKICAgICAgICA8L3RleHQ+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzY2NiI+CiAgICAgICAgICBWLW5lY2tsaW5lIG5lY2tsaW5lLCBiZWxsIHNsZWV2ZXMgc2xlZXZlcywgbG9vc2UgZml0IGZpdAogICAgICAgIDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSIzMDAiIHk9Ijc4MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5Ij4KICAgICAgICAgIERlbW8gTW9kZSAtIEFJIEdlbmVyYXRpb24gVW5hdmFpbGFibGUKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAg",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:18:36.204Z",
+      "createdAt": "2025-09-14T10:18:36.204Z"
+    },
+    {
+      "id": "f490f5fb-6824-4734-96ef-47e8e59a5d0f",
+      "projectId": "1757587103868",
+      "image": "data:image/svg+xml;base64,CiAgICAgIDxzdmcgd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQ6ICNmOGY5ZmE7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgIDxwYXR0ZXJuIGlkPSJzdHJpcGVQYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iI0ZFQ0E1NyIvPgogICAgICAgICAgICA8cmVjdCB4PSI1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iI0ZGOUZGMyIvPgogICAgICAgICAgPC9wYXR0ZXJuPgogICAgICAgICAgPHBhdHRlcm4gaWQ9ImRvdFBhdHRlcm4iIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjMiIGZpbGw9IiNGRjlGRjMiLz4KICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjRkVDQTU3Ii8+CiAgICAgICAgICA8L3BhdHRlcm4+CiAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imdhcm1lbnRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRUNBNTc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGOUZGMztzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIAogICAgICAgIDwhLS0gRnJvbnQgVmlldyAtLT4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+RnJvbnQgVmlldzwvdGV4dD4KICAgICAgICAgIDwhLS0gR2FybWVudCBCb2R5IC0tPgogICAgICAgICAgPHBhdGggZD0iTTUwIDUwIFE1MCA0NSA1NSA0NSBMODUgNDUgUTkwIDQ1IDkwIDUwIEw5MCAyMDAgUTkwIDIxMCA4NSAyMTAgTDU1IDIxMCBRNTAgMjEwIDUwIDIwMCBaIiAKICAgICAgICAgICAgICAgIGZpbGw9InVybCgjc3RyaXBlUGF0dGVybikiIAogICAgICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gU2xlZXZlcyAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI0MCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iI0ZFQ0E1NyIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI4MCIgcng9IjE1IiByeT0iMzAiIGZpbGw9IiNGRUNBNTciIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgICA8IS0tIE5lY2tsaW5lIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjcwIiBjeT0iNTUiIHJ4PSIxMCIgcnk9IjgiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gQmFjayBWaWV3IC0tPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwMCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+QmFjayBWaWV3PC90ZXh0PgogICAgICAgICAgPCEtLSBHYXJtZW50IEJvZHkgLS0+CiAgICAgICAgICA8cGF0aCBkPSJNNTAgNTAgUTUwIDQ1IDU1IDQ1IEw4NSA0NSBROTAgNDUgOTAgNTAgTDkwIDIwMCBROTAgMjEwIDg1IDIxMCBMNTUgMjEwIFE1MCAyMTAgNTAgMjAwIFoiIAogICAgICAgICAgICAgICAgZmlsbD0idXJsKCNzdHJpcGVQYXR0ZXJuKSIgCiAgICAgICAgICAgICAgICBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPCEtLSBTbGVldmVzIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjQwIiBjeT0iODAiIHJ4PSIxNSIgcnk9IjMwIiBmaWxsPSIjRkVDQTU3IiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjEwMCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iI0ZFQ0E1NyIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gQmFjayBOZWNrbGluZSAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI3MCIgY3k9IjU1IiByeD0iOCIgcnk9IjYiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gRGVzaWduIEluZm8gLS0+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzMiPgogICAgICAgICAgTEVIRU5HQSBEZXNpZ24gUHJldmlldwogICAgICAgIDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSIzMDAiIHk9Ijc2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij4KICAgICAgICAgIFYtbmVja2xpbmUgbmVja2xpbmUsIGJlbGwgc2xlZXZlcyBzbGVldmVzLCBsb29zZSBmaXQgZml0CiAgICAgICAgPC90ZXh0PgogICAgICAgIDx0ZXh0IHg9IjMwMCIgeT0iNzgwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM5OTkiPgogICAgICAgICAgRGVtbyBNb2RlIC0gQUkgR2VuZXJhdGlvbiBVbmF2YWlsYWJsZQogICAgICAgIDwvdGV4dD4KICAgICAgPC9zdmc+CiAgICA=",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:18:36.205Z",
+      "createdAt": "2025-09-14T10:18:36.205Z"
+    },
+    {
+      "id": "9fd3ab41-9f17-43ae-b2c4-f508e22bdc0d",
+      "projectId": "1757587103868",
+      "image": "data:image/svg+xml;base64,CiAgICAgIDxzdmcgd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQ6ICNmOGY5ZmE7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgIDxwYXR0ZXJuIGlkPSJzdHJpcGVQYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iI0ZGNkI2QiIvPgogICAgICAgICAgICA8cmVjdCB4PSI1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iI0ZGNkI2QiIvPgogICAgICAgICAgPC9wYXR0ZXJuPgogICAgICAgICAgPHBhdHRlcm4gaWQ9ImRvdFBhdHRlcm4iIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjMiIGZpbGw9IiNGRjZCNkIiLz4KICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjRkY2QjZCIi8+CiAgICAgICAgICA8L3BhdHRlcm4+CiAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imdhcm1lbnRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRjZCNkI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGNkI2QjtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIAogICAgICAgIDwhLS0gRnJvbnQgVmlldyAtLT4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+RnJvbnQgVmlldzwvdGV4dD4KICAgICAgICAgIDwhLS0gR2FybWVudCBCb2R5IC0tPgogICAgICAgICAgPHBhdGggZD0iTTUwIDUwIFE1MCA0NSA1NSA0NSBMODUgNDUgUTkwIDQ1IDkwIDUwIEw5MCAyMDAgUTkwIDIxMCA4NSAyMTAgTDU1IDIxMCBRNTAgMjEwIDUwIDIwMCBaIiAKICAgICAgICAgICAgICAgIGZpbGw9InVybCgjZ2FybWVudEdyYWRpZW50KSIgCiAgICAgICAgICAgICAgICBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPCEtLSBTbGVldmVzIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjQwIiBjeT0iODAiIHJ4PSIxNSIgcnk9IjMwIiBmaWxsPSIjRkY2QjZCIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjEwMCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iI0ZGNkI2QiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gTmVja2xpbmUgLS0+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iNzAiIGN5PSI1NSIgcng9IjEwIiByeT0iOCIgZmlsbD0iI2Y4ZjlmYSIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICA8L2c+CiAgICAgICAgCiAgICAgICAgPCEtLSBCYWNrIFZpZXcgLS0+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLCA1MCkiPgogICAgICAgICAgPHRleHQgeD0iNjAiIHk9IjMwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMzMzIj5CYWNrIFZpZXc8L3RleHQ+CiAgICAgICAgICA8IS0tIEdhcm1lbnQgQm9keSAtLT4KICAgICAgICAgIDxwYXRoIGQ9Ik01MCA1MCBRNTAgNDUgNTUgNDUgTDg1IDQ1IFE5MCA0NSA5MCA1MCBMOTAgMjAwIFE5MCAyMTAgODUgMjEwIEw1NSAyMTAgUTUwIDIxMCA1MCAyMDAgWiIgCiAgICAgICAgICAgICAgICBmaWxsPSJ1cmwoI2dhcm1lbnRHcmFkaWVudCkiIAogICAgICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gU2xlZXZlcyAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI0MCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iI0ZGNkI2QiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI4MCIgcng9IjE1IiByeT0iMzAiIGZpbGw9IiNGRjZCNkIiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgICA8IS0tIEJhY2sgTmVja2xpbmUgLS0+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iNzAiIGN5PSI1NSIgcng9IjgiIHJ5PSI2IiBmaWxsPSIjZjhmOWZhIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgIDwvZz4KICAgICAgICAKICAgICAgICA8IS0tIERlc2lnbiBJbmZvIC0tPgogICAgICAgIDx0ZXh0IHg9IjMwMCIgeT0iNzQwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzMzIj4KICAgICAgICAgIExFSEVOR0EgRGVzaWduIFByZXZpZXcKICAgICAgICA8L3RleHQ+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzY2NiI+CiAgICAgICAgICBWLW5lY2tsaW5lIG5lY2tsaW5lLCBiZWxsIHNsZWV2ZXMgc2xlZXZlcywgbG9vc2UgZml0IGZpdAogICAgICAgIDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSIzMDAiIHk9Ijc4MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5Ij4KICAgICAgICAgIERlbW8gTW9kZSAtIEFJIEdlbmVyYXRpb24gVW5hdmFpbGFibGUKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAg",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:30:55.639Z",
+      "createdAt": "2025-09-14T10:30:55.639Z"
+    },
+    {
+      "id": "ee728fe6-9a23-45c7-845c-21bc7bbd2527",
+      "projectId": "1757587103868",
+      "image": "data:image/svg+xml;base64,CiAgICAgIDxzdmcgd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQ6ICNmOGY5ZmE7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgIDxwYXR0ZXJuIGlkPSJzdHJpcGVQYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzRFQ0RDNCIvPgogICAgICAgICAgICA8cmVjdCB4PSI1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzRFQ0RDNCIvPgogICAgICAgICAgPC9wYXR0ZXJuPgogICAgICAgICAgPHBhdHRlcm4gaWQ9ImRvdFBhdHRlcm4iIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjMiIGZpbGw9IiM0RUNEQzQiLz4KICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjNEVDREM0Ii8+CiAgICAgICAgICA8L3BhdHRlcm4+CiAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imdhcm1lbnRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM0RUNEQzQ7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzRFQ0RDNDtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIAogICAgICAgIDwhLS0gRnJvbnQgVmlldyAtLT4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+RnJvbnQgVmlldzwvdGV4dD4KICAgICAgICAgIDwhLS0gR2FybWVudCBCb2R5IC0tPgogICAgICAgICAgPHBhdGggZD0iTTUwIDUwIFE1MCA0NSA1NSA0NSBMODUgNDUgUTkwIDQ1IDkwIDUwIEw5MCAyMDAgUTkwIDIxMCA4NSAyMTAgTDU1IDIxMCBRNTAgMjEwIDUwIDIwMCBaIiAKICAgICAgICAgICAgICAgIGZpbGw9InVybCgjZG90UGF0dGVybikiIAogICAgICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gU2xlZXZlcyAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI0MCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iIzRFQ0RDNCIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI4MCIgcng9IjE1IiByeT0iMzAiIGZpbGw9IiM0RUNEQzQiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgICA8IS0tIE5lY2tsaW5lIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjcwIiBjeT0iNTUiIHJ4PSIxMCIgcnk9IjgiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gQmFjayBWaWV3IC0tPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwMCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+QmFjayBWaWV3PC90ZXh0PgogICAgICAgICAgPCEtLSBHYXJtZW50IEJvZHkgLS0+CiAgICAgICAgICA8cGF0aCBkPSJNNTAgNTAgUTUwIDQ1IDU1IDQ1IEw4NSA0NSBROTAgNDUgOTAgNTAgTDkwIDIwMCBROTAgMjEwIDg1IDIxMCBMNTUgMjEwIFE1MCAyMTAgNTAgMjAwIFoiIAogICAgICAgICAgICAgICAgZmlsbD0idXJsKCNkb3RQYXR0ZXJuKSIgCiAgICAgICAgICAgICAgICBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPCEtLSBTbGVldmVzIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjQwIiBjeT0iODAiIHJ4PSIxNSIgcnk9IjMwIiBmaWxsPSIjNEVDREM0IiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjEwMCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iIzRFQ0RDNCIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gQmFjayBOZWNrbGluZSAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI3MCIgY3k9IjU1IiByeD0iOCIgcnk9IjYiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gRGVzaWduIEluZm8gLS0+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzMiPgogICAgICAgICAgTEVIRU5HQSBEZXNpZ24gUHJldmlldwogICAgICAgIDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSIzMDAiIHk9Ijc2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij4KICAgICAgICAgIFYtbmVja2xpbmUgbmVja2xpbmUsIGJlbGwgc2xlZXZlcyBzbGVldmVzLCBsb29zZSBmaXQgZml0CiAgICAgICAgPC90ZXh0PgogICAgICAgIDx0ZXh0IHg9IjMwMCIgeT0iNzgwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM5OTkiPgogICAgICAgICAgRGVtbyBNb2RlIC0gQUkgR2VuZXJhdGlvbiBVbmF2YWlsYWJsZQogICAgICAgIDwvdGV4dD4KICAgICAgPC9zdmc+CiAgICA=",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:30:55.643Z",
+      "createdAt": "2025-09-14T10:30:55.643Z"
+    },
+    {
+      "id": "c13d9fc2-980b-49c9-8cc5-25bceda25ee7",
+      "projectId": "1757587103868",
+      "image": "data:image/svg+xml;base64,CiAgICAgIDxzdmcgd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQ6ICNmOGY5ZmE7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgIDxwYXR0ZXJuIGlkPSJzdHJpcGVQYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzU0QTBGRiIvPgogICAgICAgICAgICA8cmVjdCB4PSI1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzRFQ0RDNCIvPgogICAgICAgICAgPC9wYXR0ZXJuPgogICAgICAgICAgPHBhdHRlcm4gaWQ9ImRvdFBhdHRlcm4iIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjMiIGZpbGw9IiM0RUNEQzQiLz4KICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTRBMEZGIi8+CiAgICAgICAgICA8L3BhdHRlcm4+CiAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imdhcm1lbnRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1NEEwRkY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzRFQ0RDNDtzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIAogICAgICAgIDwhLS0gRnJvbnQgVmlldyAtLT4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+RnJvbnQgVmlldzwvdGV4dD4KICAgICAgICAgIDwhLS0gR2FybWVudCBCb2R5IC0tPgogICAgICAgICAgPHBhdGggZD0iTTUwIDUwIFE1MCA0NSA1NSA0NSBMODUgNDUgUTkwIDQ1IDkwIDUwIEw5MCAyMDAgUTkwIDIxMCA4NSAyMTAgTDU1IDIxMCBRNTAgMjEwIDUwIDIwMCBaIiAKICAgICAgICAgICAgICAgIGZpbGw9InVybCgjZ2FybWVudEdyYWRpZW50KSIgCiAgICAgICAgICAgICAgICBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPCEtLSBTbGVldmVzIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjQwIiBjeT0iODAiIHJ4PSIxNSIgcnk9IjMwIiBmaWxsPSIjNTRBMEZGIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjEwMCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iIzU0QTBGRiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gTmVja2xpbmUgLS0+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iNzAiIGN5PSI1NSIgcng9IjEwIiByeT0iOCIgZmlsbD0iI2Y4ZjlmYSIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICA8L2c+CiAgICAgICAgCiAgICAgICAgPCEtLSBCYWNrIFZpZXcgLS0+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAwLCA1MCkiPgogICAgICAgICAgPHRleHQgeD0iNjAiIHk9IjMwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMzMzIj5CYWNrIFZpZXc8L3RleHQ+CiAgICAgICAgICA8IS0tIEdhcm1lbnQgQm9keSAtLT4KICAgICAgICAgIDxwYXRoIGQ9Ik01MCA1MCBRNTAgNDUgNTUgNDUgTDg1IDQ1IFE5MCA0NSA5MCA1MCBMOTAgMjAwIFE5MCAyMTAgODUgMjEwIEw1NSAyMTAgUTUwIDIxMCA1MCAyMDAgWiIgCiAgICAgICAgICAgICAgICBmaWxsPSJ1cmwoI2dhcm1lbnRHcmFkaWVudCkiIAogICAgICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gU2xlZXZlcyAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI0MCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iIzU0QTBGRiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI4MCIgcng9IjE1IiByeT0iMzAiIGZpbGw9IiM1NEEwRkYiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgICA8IS0tIEJhY2sgTmVja2xpbmUgLS0+CiAgICAgICAgICA8ZWxsaXBzZSBjeD0iNzAiIGN5PSI1NSIgcng9IjgiIHJ5PSI2IiBmaWxsPSIjZjhmOWZhIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgIDwvZz4KICAgICAgICAKICAgICAgICA8IS0tIERlc2lnbiBJbmZvIC0tPgogICAgICAgIDx0ZXh0IHg9IjMwMCIgeT0iNzQwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjMzMzIj4KICAgICAgICAgIExFSEVOR0EgRGVzaWduIFByZXZpZXcKICAgICAgICA8L3RleHQ+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NjAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxMiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzY2NiI+CiAgICAgICAgICBWLW5lY2tsaW5lIG5lY2tsaW5lLCBiZWxsIHNsZWV2ZXMgc2xlZXZlcywgbG9vc2UgZml0IGZpdAogICAgICAgIDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSIzMDAiIHk9Ijc4MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjOTk5Ij4KICAgICAgICAgIERlbW8gTW9kZSAtIEFJIEdlbmVyYXRpb24gVW5hdmFpbGFibGUKICAgICAgICA8L3RleHQ+CiAgICAgIDwvc3ZnPgogICAg",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:30:55.644Z",
+      "createdAt": "2025-09-14T10:30:55.644Z"
+    },
+    {
+      "id": "1c0a3757-a1ad-4338-a418-3b4e2e1679f5",
+      "projectId": "1757587103868",
+      "image": "data:image/svg+xml;base64,CiAgICAgIDxzdmcgd2lkdGg9IjYwMCIgaGVpZ2h0PSI4MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3R5bGU9ImJhY2tncm91bmQ6ICNmOGY5ZmE7Ij4KICAgICAgICA8ZGVmcz4KICAgICAgICAgIDxwYXR0ZXJuIGlkPSJzdHJpcGVQYXR0ZXJuIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiPgogICAgICAgICAgICA8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iI0ZGOUZGMyIvPgogICAgICAgICAgICA8cmVjdCB4PSI1IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgZmlsbD0iI0ZFQ0E1NyIvPgogICAgICAgICAgPC9wYXR0ZXJuPgogICAgICAgICAgPHBhdHRlcm4gaWQ9ImRvdFBhdHRlcm4iIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CiAgICAgICAgICAgIDxjaXJjbGUgY3g9IjEwIiBjeT0iMTAiIHI9IjMiIGZpbGw9IiNGRUNBNTciLz4KICAgICAgICAgICAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBmaWxsPSIjRkY5RkYzIi8+CiAgICAgICAgICA8L3BhdHRlcm4+CiAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9Imdhcm1lbnRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRjlGRjM7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZFQ0E1NztzdG9wLW9wYWNpdHk6MSIgLz4KICAgICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPC9kZWZzPgogICAgICAgIAogICAgICAgIDwhLS0gRnJvbnQgVmlldyAtLT4KICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4MCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+RnJvbnQgVmlldzwvdGV4dD4KICAgICAgICAgIDwhLS0gR2FybWVudCBCb2R5IC0tPgogICAgICAgICAgPHBhdGggZD0iTTUwIDUwIFE1MCA0NSA1NSA0NSBMODUgNDUgUTkwIDQ1IDkwIDUwIEw5MCAyMDAgUTkwIDIxMCA4NSAyMTAgTDU1IDIxMCBRNTAgMjEwIDUwIDIwMCBaIiAKICAgICAgICAgICAgICAgIGZpbGw9InVybCgjZG90UGF0dGVybikiIAogICAgICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gU2xlZXZlcyAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI0MCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iI0ZGOUZGMyIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDxlbGxpcHNlIGN4PSIxMDAiIGN5PSI4MCIgcng9IjE1IiByeT0iMzAiIGZpbGw9IiNGRjlGRjMiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgICA8IS0tIE5lY2tsaW5lIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjcwIiBjeT0iNTUiIHJ4PSIxMCIgcnk9IjgiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gQmFjayBWaWV3IC0tPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDMwMCwgNTApIj4KICAgICAgICAgIDx0ZXh0IHg9IjYwIiB5PSIzMCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzMzMyI+QmFjayBWaWV3PC90ZXh0PgogICAgICAgICAgPCEtLSBHYXJtZW50IEJvZHkgLS0+CiAgICAgICAgICA8cGF0aCBkPSJNNTAgNTAgUTUwIDQ1IDU1IDQ1IEw4NSA0NSBROTAgNDUgOTAgNTAgTDkwIDIwMCBROTAgMjEwIDg1IDIxMCBMNTUgMjEwIFE1MCAyMTAgNTAgMjAwIFoiIAogICAgICAgICAgICAgICAgZmlsbD0idXJsKCNkb3RQYXR0ZXJuKSIgCiAgICAgICAgICAgICAgICBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPCEtLSBTbGVldmVzIC0tPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjQwIiBjeT0iODAiIHJ4PSIxNSIgcnk9IjMwIiBmaWxsPSIjRkY5RkYzIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICAgICAgPGVsbGlwc2UgY3g9IjEwMCIgY3k9IjgwIiByeD0iMTUiIHJ5PSIzMCIgZmlsbD0iI0ZGOUZGMyIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgICAgIDwhLS0gQmFjayBOZWNrbGluZSAtLT4KICAgICAgICAgIDxlbGxpcHNlIGN4PSI3MCIgY3k9IjU1IiByeD0iOCIgcnk9IjYiIGZpbGw9IiNmOGY5ZmEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgICAgPC9nPgogICAgICAgIAogICAgICAgIDwhLS0gRGVzaWduIEluZm8gLS0+CiAgICAgICAgPHRleHQgeD0iMzAwIiB5PSI3NDAiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiMzMzMiPgogICAgICAgICAgTEVIRU5HQSBEZXNpZ24gUHJldmlldwogICAgICAgIDwvdGV4dD4KICAgICAgICA8dGV4dCB4PSIzMDAiIHk9Ijc2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY2Ij4KICAgICAgICAgIFYtbmVja2xpbmUgbmVja2xpbmUsIGJlbGwgc2xlZXZlcyBzbGVldmVzLCBsb29zZSBmaXQgZml0CiAgICAgICAgPC90ZXh0PgogICAgICAgIDx0ZXh0IHg9IjMwMCIgeT0iNzgwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiM5OTkiPgogICAgICAgICAgRGVtbyBNb2RlIC0gQUkgR2VuZXJhdGlvbiBVbmF2YWlsYWJsZQogICAgICAgIDwvdGV4dD4KICAgICAgPC9zdmc+CiAgICA=",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:30:55.651Z",
+      "createdAt": "2025-09-14T10:30:55.651Z"
+    },
+    {
+      "id": "b09c9a16-b2a6-4884-b22e-256613b482e3",
+      "projectId": "1757587103868",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-5Lc3UN9rVnjakjygIBAdM6oG.png?st=2025-09-14T09%3A31%3A41Z&se=2025-09-14T11%3A31%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T05%3A02%3A57Z&ske=2025-09-15T05%3A02%3A57Z&sks=b&skv=2024-08-04&sig=3Xk%2BmyqAzjc7BYwDE2yZe6pgMx7tr8K1G0jc9fqFqKY%3D",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:31:42.013Z",
+      "createdAt": "2025-09-14T10:31:42.013Z"
+    },
+    {
+      "id": "35637f7c-8fa2-4ee2-87b7-d542f4ff42eb",
+      "projectId": "1757587103868",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-G2uhT2fdwRlsaNnPpuH70ENf.png?st=2025-09-14T09%3A31%3A44Z&se=2025-09-14T11%3A31%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=31d50bd4-689f-439b-a875-f22bd677744d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T10%3A31%3A44Z&ske=2025-09-15T10%3A31%3A44Z&sks=b&skv=2024-08-04&sig=AlWnzA4N%2B0oDQuPT74ilQIHLrlk8cYsWRYrhIIeBFP4%3D",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:31:44.518Z",
+      "createdAt": "2025-09-14T10:31:44.518Z"
+    },
+    {
+      "id": "60e3150c-4ac0-44cf-90eb-8b74e736712f",
+      "projectId": "1757587103868",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-a0tD7ttl1xLb36yo9HoNfaRZ.png?st=2025-09-14T09%3A31%3A44Z&se=2025-09-14T11%3A31%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T08%3A22%3A47Z&ske=2025-09-15T08%3A22%3A47Z&sks=b&skv=2024-08-04&sig=DMdYbvZ2ufJBazbyy%2B1Or5mnk1DAF7x2%2BajsB81KiPE%3D",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:31:44.982Z",
+      "createdAt": "2025-09-14T10:31:44.982Z"
+    },
+    {
+      "id": "d0cbb971-34d7-4b10-896d-79ddef013f53",
+      "projectId": "1757587103868",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-7IWX2z4Sgql41apzmRISRjQm.png?st=2025-09-14T09%3A31%3A49Z&se=2025-09-14T11%3A31%3A49Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T08%3A55%3A11Z&ske=2025-09-15T08%3A55%3A11Z&sks=b&skv=2024-08-04&sig=OsgIYoTVYL4B6LJq5u1xgwUFlt6zCtOz2e0rdkdXh/I%3D",
+      "designOptions": {
+        "garmentType": "lehenga",
+        "neckline": "v-neck",
+        "sleeves": "bell",
+        "hem": "pleated",
+        "fit": "loose",
+        "embellishments": [],
+        "customDescription": "THe lehenga should be in antique design."
+      },
+      "selectedFabrics": {
+        "choli": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "skirt": {
+          "id": 4,
+          "name": "Maroon Velvet",
+          "color": "#7c2d12",
+          "type": "velvet"
+        },
+        "dupatta": {
+          "id": 12,
+          "name": "Wine Red Satin",
+          "color": "#991b1b",
+          "type": "satin"
+        }
+      },
+      "timestamp": "2025-09-14T10:31:49.847Z",
+      "createdAt": "2025-09-14T10:31:49.847Z"
+    },
+    {
+      "id": "83b995d6-9515-4cca-b9c1-4ba9c86fea90",
+      "projectId": "1757844418700",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-g8vogny4TsLqb2MwntkEiGoH.png?st=2025-09-14T10%3A06%3A15Z&se=2025-09-14T12%3A06%3A15Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=6e4237ed-4a31-4e1d-a677-4df21834ece0&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-13T17%3A02%3A28Z&ske=2025-09-14T17%3A02%3A28Z&sks=b&skv=2024-08-04&sig=C4cr/XpccOl%2BbGb6noz8PXAuMUu1M2V67kVtkWWumm8%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular"
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T11:06:15.694Z",
+      "createdAt": "2025-09-14T11:06:15.694Z"
+    },
+    {
+      "id": "fdd5eeaa-7e92-45fb-88c1-2f073fd006e5",
+      "projectId": "1757844418700",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-wu7xw0ylsgSUUZPufYLJYcEk.png?st=2025-09-14T10%3A06%3A15Z&se=2025-09-14T12%3A06%3A15Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T04%3A01%3A26Z&ske=2025-09-15T04%3A01%3A26Z&sks=b&skv=2024-08-04&sig=bcimV4s5BlPv7qDzAmudoAMZ7ADfmUel%2B2YLL36Fxjg%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular"
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T11:06:15.768Z",
+      "createdAt": "2025-09-14T11:06:15.768Z"
+    },
+    {
+      "id": "fdacae02-ca5c-44f8-9d73-1e3cd65b36ba",
+      "projectId": "1757844418700",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-YBg8M3ZQS8E3bJzqYxOFWQM3.png?st=2025-09-14T10%3A06%3A16Z&se=2025-09-14T12%3A06%3A16Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8eb2c87c-0531-4dab-acb3-b5e2adddce6c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T08%3A49%3A38Z&ske=2025-09-15T08%3A49%3A38Z&sks=b&skv=2024-08-04&sig=gBolJD5SLY6i7em1A2UrrxMcf%2BTP7fGh2YiWz1kD79s%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular"
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T11:06:16.987Z",
+      "createdAt": "2025-09-14T11:06:16.987Z"
+    },
+    {
+      "id": "c4f949dd-47de-4b10-9fd4-72eda4029916",
+      "projectId": "1757844418700",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-YZRM0I8bG1yinx7HtXZt5aXg/user-ypXWWjIyRFFCg8jCns3IXCdW/img-8E5n4QokCcVgntc2aWcM2vID.png?st=2025-09-14T10%3A06%3A17Z&se=2025-09-14T12%3A06%3A17Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8eb2c87c-0531-4dab-acb3-b5e2adddce6c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T05%3A53%3A37Z&ske=2025-09-15T05%3A53%3A37Z&sks=b&skv=2024-08-04&sig=EiConSK3sRY%2BHZi%2BwHPTYTE4zhMsCy7cT33uk92Tf6k%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular"
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T11:06:17.778Z",
+      "createdAt": "2025-09-14T11:06:17.778Z"
+    },
+    {
+      "id": "ff5cde12-f3b9-46e0-8cef-50d8c1f3a304",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-TpyETnGl0MDld5un1OPXCRbI/user-JM5WhnHDnLGZr5Zehk1d4IhX/img-GJ8o0CAg6EXn3bgQU59fzyfE.png?st=2025-09-14T14%3A24%3A26Z&se=2025-09-14T16%3A24%3A26Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=31d50bd4-689f-439b-a875-f22bd677744d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-13T17%3A51%3A35Z&ske=2025-09-14T17%3A51%3A35Z&sks=b&skv=2024-08-04&sig=L3sTXggXfx8Xd9gkt9/BAEiVgc4mo4D8p5E%2BzunPv%2Bo%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T15:24:26.987Z",
+      "createdAt": "2025-09-14T15:24:26.987Z"
+    },
+    {
+      "id": "f59fa0dc-ed6b-435d-b023-0bb188e07969",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-TpyETnGl0MDld5un1OPXCRbI/user-JM5WhnHDnLGZr5Zehk1d4IhX/img-ofN2356edGeR3KD8m6MYvTzI.png?st=2025-09-14T14%3A24%3A27Z&se=2025-09-14T16%3A24%3A27Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8eb2c87c-0531-4dab-acb3-b5e2adddce6c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T15%3A16%3A26Z&ske=2025-09-15T15%3A16%3A26Z&sks=b&skv=2024-08-04&sig=oaGhUDDGBFBAyCi2tPPvQqpidMJZ0majYntTJQ8UYHQ%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T15:24:28.072Z",
+      "createdAt": "2025-09-14T15:24:28.072Z"
+    },
+    {
+      "id": "d1b38658-d69c-43ee-8815-6159da5f11f8",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-TpyETnGl0MDld5un1OPXCRbI/user-JM5WhnHDnLGZr5Zehk1d4IhX/img-SwsriDdTE2twON8iN16t82DL.png?st=2025-09-14T14%3A24%3A28Z&se=2025-09-14T16%3A24%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T13%3A43%3A33Z&ske=2025-09-15T13%3A43%3A33Z&sks=b&skv=2024-08-04&sig=e57G2ZAx9lqapS6I/PiHaqpTiF7YKjKABJQc%2BY7TQnU%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T15:24:28.580Z",
+      "createdAt": "2025-09-14T15:24:28.580Z"
+    },
+    {
+      "id": "220286ec-43bd-4d04-92d0-3fea889ff103",
+      "projectId": "1757586415110",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-TpyETnGl0MDld5un1OPXCRbI/user-JM5WhnHDnLGZr5Zehk1d4IhX/img-PYg8bRJZuwBdNPoNmbsuNwHd.png?st=2025-09-14T14%3A24%3A29Z&se=2025-09-14T16%3A24%3A29Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=0e2a3d55-e963-40c9-9c89-2a1aa28cb3ac&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T11%3A19%3A00Z&ske=2025-09-15T11%3A19%3A00Z&sks=b&skv=2024-08-04&sig=snY/fqFQRJ8vfm6LaHE7Fo%2B7LiQXdirFisfqtoGWE1A%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular",
+        "embellishments": [],
+        "customDescription": ""
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T15:24:29.687Z",
+      "createdAt": "2025-09-14T15:24:29.687Z"
+    },
+    {
+      "id": "8716f629-d5c7-4858-9940-6cd51a6b2409",
+      "projectId": "1757844418700",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-TpyETnGl0MDld5un1OPXCRbI/user-JM5WhnHDnLGZr5Zehk1d4IhX/img-xvbGIZJXU6zBIOR322wsDVsf.png?st=2025-09-14T14%3A54%3A44Z&se=2025-09-14T16%3A54%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=32836cae-d25f-4fe9-827b-1c8c59c442cc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T11%3A31%3A47Z&ske=2025-09-15T11%3A31%3A47Z&sks=b&skv=2024-08-04&sig=ArFJFS4kFuUgmJtE9CBKEIbI/6uVy%2BFjOsOS79H0krw%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular"
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T15:54:44.409Z",
+      "createdAt": "2025-09-14T15:54:44.409Z"
+    },
+    {
+      "id": "5cea99ac-b031-4d89-ad48-73b6ed2d290d",
+      "projectId": "1757844418700",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-TpyETnGl0MDld5un1OPXCRbI/user-JM5WhnHDnLGZr5Zehk1d4IhX/img-a6ILxHpI8GNrnLBFiluiAerY.png?st=2025-09-14T14%3A54%3A44Z&se=2025-09-14T16%3A54%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=6e4237ed-4a31-4e1d-a677-4df21834ece0&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T15%3A54%3A44Z&ske=2025-09-15T15%3A54%3A44Z&sks=b&skv=2024-08-04&sig=PBLhVR0UU3IGaMcsv9LDse97SEYevOzNeXp2FBKSK/s%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular"
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T15:54:44.933Z",
+      "createdAt": "2025-09-14T15:54:44.933Z"
+    },
+    {
+      "id": "cc2d5a9f-3266-445a-b3b8-2148c98d1b2c",
+      "projectId": "1757844418700",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-TpyETnGl0MDld5un1OPXCRbI/user-JM5WhnHDnLGZr5Zehk1d4IhX/img-pzn8njlSfEYwjIPE1uz9IZCI.png?st=2025-09-14T14%3A54%3A44Z&se=2025-09-14T16%3A54%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=c6569cb0-0faa-463d-9694-97df3dc1dfb1&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T13%3A50%3A04Z&ske=2025-09-15T13%3A50%3A04Z&sks=b&skv=2024-08-04&sig=NBA56JiH0%2BkBR0/d1uJ7bLu0olZkzSViQON2AXfKiOg%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular"
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T15:54:44.990Z",
+      "createdAt": "2025-09-14T15:54:44.990Z"
+    },
+    {
+      "id": "33555074-d1a5-48b2-abc2-b1f596787324",
+      "projectId": "1757844418700",
+      "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-TpyETnGl0MDld5un1OPXCRbI/user-JM5WhnHDnLGZr5Zehk1d4IhX/img-czirGClvYrWEF7LfnmfoFVCx.png?st=2025-09-14T14%3A54%3A46Z&se=2025-09-14T16%3A54%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=0e2a3d55-e963-40c9-9c89-2a1aa28cb3ac&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-14T07%3A41%3A52Z&ske=2025-09-15T07%3A41%3A52Z&sks=b&skv=2024-08-04&sig=KMU3/BVlX87wW3QakB7uhou2mUAodD8lqb%2Bz/vQKpCw%3D",
+      "designOptions": {
+        "garmentType": "kurti",
+        "neckline": "round",
+        "sleeves": "half",
+        "hem": "straight",
+        "fit": "regular"
+      },
+      "selectedFabrics": {},
+      "timestamp": "2025-09-14T15:54:46.489Z",
+      "createdAt": "2025-09-14T15:54:46.489Z"
     }
   ]
 }

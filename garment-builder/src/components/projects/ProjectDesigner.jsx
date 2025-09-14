@@ -6,7 +6,7 @@ import GarmentBuilder from '../GarmentBuilder';
 const ProjectDesigner = () => {
   const { projectId } = useParams();
   const navigate = useNavigate();
-  const { projects, currentProject, openProject, saveCurrentProject, updateProject } = useProjects();
+  const { projects, currentProject, openProject, saveCurrentProject, updateProject, refreshProjectThumbnail } = useProjects();
   const [loading, setLoading] = useState(true);
   const [lastSavedTime, setLastSavedTime] = useState(null);
 
@@ -24,9 +24,9 @@ const ProjectDesigner = () => {
     navigate('/projects');
   };
 
-  const handleSave = (designOptions, selectedFabrics) => {
+  const handleSave = async (designOptions, selectedFabrics) => {
     if (currentProject) {
-      saveCurrentProject(designOptions, selectedFabrics);
+      await saveCurrentProject(designOptions, selectedFabrics);
       setLastSavedTime(new Date());
       // Show save confirmation
       const saveNotice = document.createElement('div');
@@ -39,10 +39,10 @@ const ProjectDesigner = () => {
     }
   };
 
-  const handleAutoSave = (designOptions, selectedFabrics) => {
+  const handleAutoSave = async (designOptions, selectedFabrics) => {
     // Auto-save every change
     if (currentProject) {
-      saveCurrentProject(designOptions, selectedFabrics);
+      await saveCurrentProject(designOptions, selectedFabrics);
       setLastSavedTime(new Date());
     }
   };
@@ -60,7 +60,7 @@ const ProjectDesigner = () => {
         justifyContent: 'center', 
         alignItems: 'center', 
         height: '100vh',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: 'linear-gradient(135deg, #2C3E50 0%, #E67E22 100%)',
         color: 'white',
         fontSize: '1.2rem'
       }}>
@@ -133,6 +133,8 @@ const ProjectDesigner = () => {
         initialSelectedFabrics={currentProject?.selectedFabrics}
         onDesignChange={handleAutoSave}
         lastSavedTime={lastSavedTime}
+        refreshProjectThumbnail={refreshProjectThumbnail}
+        projectId={currentProject?.id}
       />
     </>
   );

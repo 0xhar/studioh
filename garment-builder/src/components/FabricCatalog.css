@@ -10,12 +10,25 @@
 }
 
 .catalog-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #e1e5e9;
+  padding: 8px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 48px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.catalog-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
 }
 
 .catalog-header h2 {
@@ -27,27 +40,36 @@
 
 .catalog-tabs {
   display: flex;
-  gap: 5px;
+  gap: 0;
+  background: #fff;
+  border-radius: 6px;
+  padding: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
 }
 
 .tab-btn {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  color: #6c757d;
+  border: none;
   padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 0.9rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
 .tab-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #f8f9fa;
+  color: #495057;
 }
 
 .tab-btn.active {
-  background: white;
-  color: #667eea;
+  background: var(--complementary-navy);
+  color: white;
+  box-shadow: 0 1px 2px rgba(102, 126, 234, 0.2);
   border-color: white;
 }
 
@@ -73,7 +95,7 @@
 }
 
 .upload-area:hover {
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
   background: rgba(102, 126, 234, 0.02);
 }
 
@@ -156,7 +178,7 @@
 
 .search-input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
@@ -189,7 +211,7 @@
 
 .filter-select:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
 }
 
 .reset-filters {
@@ -228,7 +250,7 @@
 .fabric-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
 }
 
 .fabric-preview {
@@ -295,7 +317,7 @@
 
 .pattern-tag {
   background: rgba(102, 126, 234, 0.1);
-  color: #667eea;
+  color: var(--complementary-navy);
 }
 
 .color-tag {
@@ -327,7 +349,7 @@
 }
 
 .reset-btn {
-  background: #667eea;
+  background: var(--complementary-navy);
   color: white;
   border: none;
   padding: 10px 20px;

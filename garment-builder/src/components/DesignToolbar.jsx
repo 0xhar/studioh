@@ -243,29 +243,6 @@ const DesignToolbar = ({ onDesignChange, initialDesignOptions }) => {
     <div className="design-toolbar">
       <div className="toolbar-header">
         <h2>Design Options</h2>
-        <button className="reset-btn" onClick={() => {
-          const defaultOptions = {
-            garmentType: 'kurti',
-            neckline: 'round',
-            sleeves: 'half',
-            hem: 'straight',
-            fit: 'regular',
-            embellishments: [],
-            customDescription: ''
-          };
-          setSelectedOptions(defaultOptions);
-          setCustomOptions({
-            garmentType: [],
-            neckline: [],
-            sleeves: [],
-            hem: [],
-            fit: [],
-            embellishments: []
-          });
-          onDesignChange(defaultOptions);
-        }}>
-          Reset All
-        </button>
       </div>
 
       <div className="toolbar-content">
@@ -311,11 +288,11 @@ const DesignToolbar = ({ onDesignChange, initialDesignOptions }) => {
               <button
                 key={embellishment.id}
                 className={`embellishment-button ${selectedOptions.embellishments?.includes(embellishment.id) ? 'selected' : ''}`}
-                style={{ '--accent-color': embellishment.color || '#667eea' }}
+                style={{ '--accent-color': embellishment.color || '#2C3E50' }}
                 onClick={() => handleEmbellishmentToggle(embellishment.id)}
                 title={embellishment.name}
               >
-                <div className="embellishment-color" style={{ backgroundColor: embellishment.color || '#667eea' }}></div>
+                <div className="embellishment-color" style={{ backgroundColor: embellishment.color || '#2C3E50' }}></div>
                 <span className="embellishment-name">{embellishment.name}</span>
               </button>
             ))}

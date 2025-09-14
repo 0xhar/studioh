@@ -54,6 +54,22 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Force light theme for the application */
+:root {
+  color: #213547 !important;
+  background-color: #ffffff !important;
+}
+
+/* Ensure all inputs have dark text on light background */
+input, textarea, select {
+  color: #2d3561 !important;
+  background-color: white !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #adb5bd !important;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../contexts/AuthContext';
 import DesignToolbar from './DesignToolbar';
 import GarmentCanvas from './GarmentCanvas';
 import FabricCatalog from './FabricCatalog';
@@ -19,8 +21,13 @@ const GarmentBuilder = ({
   initialDesignOptions,
   initialSelectedFabrics,
   onDesignChange,
-  lastSavedTime
+  lastSavedTime,
+  refreshProjectThumbnail,
+  projectId
 }) => {
+  const navigate = useNavigate();
+  const { canUsePreview, incrementPreviewCount, getRemainingPreviews, user } = useAuth();
+  
   const [designOptions, setDesignOptions] = useState(
     initialDesignOptions || {
       garmentType: 'kurti',
@@ -41,6 +48,8 @@ const GarmentBuilder = ({
   const [modalDesignOptions, setModalDesignOptions] = useState(designOptions);
   const [modalSelectedFabrics, setModalSelectedFabrics] = useState(selectedFabrics);
   const [settingsPanelCollapsed, setSettingsPanelCollapsed] = useState(true);
+  const [isEditingTitle, setIsEditingTitle] = useState(false);
+  const [editingTitle, setEditingTitle] = useState(projectName || '');
   
   // Panel collapse states
   const [leftPanelCollapsed, setLeftPanelCollapsed] = useState(false);
@@ -48,6 +57,7 @@ const GarmentBuilder = ({
 
   // Store reference to generate function from GarmentMockup2D
   const [generateImageFunction, setGenerateImageFunction] = useState(null);
+  const [isGeneratingFromButton, setIsGeneratingFromButton] = useState(false);
 
   // Define valid parts for each garment type
   const garmentParts = {
@@ -72,12 +82,21 @@ const GarmentBuilder = ({
     }
   }, [initialSelectedFabrics]);
 
-  // Auto-save when design or fabrics change
+  // Update editing title when projectName changes
   useEffect(() => {
-    if (onDesignChange && (initialDesignOptions || initialSelectedFabrics)) {
+    setEditingTitle(projectName || '');
+  }, [projectName]);
+
+  // Track if this is the initial load
+  const [hasUserMadeChanges, setHasUserMadeChanges] = useState(false);
+
+  // Auto-save when design or fabrics change (but not on initial load)
+  useEffect(() => {
+    if (onDesignChange && hasUserMadeChanges) {
       onDesignChange(designOptions, selectedFabrics);
     }
   }, [designOptions, selectedFabrics]);
+
 
   // Sync modal options only when modal opens (not on every change)
   useEffect(() => {
@@ -121,11 +140,41 @@ const GarmentBuilder = ({
       console.log(`Garment type changed from ${previousGarmentType} to ${newGarmentType}`);
     }
     
+    // Mark that user has made changes
+    setHasUserMadeChanges(true);
     setDesignOptions(newDesign);
+  };
+
+  // Preview limit handler
+  const handlePreviewClick = () => {
+    if (!user) {
+      alert('Please log in to use the preview feature.');
+      return;
+    }
+
+    if (!canUsePreview()) {
+      // Show contact modal or redirect to contact page
+      if (window.confirm('You have reached your free preview limit (2 previews). Would you like to contact us for more previews or upgrade to a paid plan?')) {
+        // Open contact page in new tab
+        window.open('/contact.html', '_blank');
+      }
+      return;
+    }
+
+    // Use a preview and show the modal
+    const success = incrementPreviewCount();
+    if (success) {
+      setShowPreview(true);
+    } else {
+      // This shouldn't happen if canUsePreview returned true, but just in case
+      alert('Preview limit reached. Please contact us for more previews.');
+    }
   };
 
   const handleFabricDrop = (partId, fabric) => {
     console.log('handleFabricDrop - partId:', partId, 'fabric:', fabric);
+    // Mark that user has made changes
+    setHasUserMadeChanges(true);
     setSelectedFabrics(prev => {
       const newFabrics = { ...prev };
       if (fabric === null) {
@@ -164,6 +213,40 @@ const GarmentBuilder = ({
     if (onDesignChange) {
       onDesignChange(modalDesignOptions, modalSelectedFabrics);
     }
+  };
+
+  const handleLogoClick = () => {
+    navigate('/projects');
+  };
+
+  const handleTitleClick = () => {
+    setIsEditingTitle(true);
+  };
+
+  const handleTitleChange = (e) => {
+    setEditingTitle(e.target.value);
+  };
+
+  const handleTitleSubmit = () => {
+    const newName = editingTitle.trim() || 'Untitled Design';
+    setEditingTitle(newName);
+    setIsEditingTitle(false);
+    if (onRenameProject) {
+      onRenameProject(newName);
+    }
+  };
+
+  const handleTitleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleTitleSubmit();
+    } else if (e.key === 'Escape') {
+      setEditingTitle(projectName || 'Untitled Design');
+      setIsEditingTitle(false);
+    }
+  };
+
+  const handleTitleBlur = () => {
+    handleTitleSubmit();
   };
 
   const handleSaveDesign = () => {
@@ -363,7 +446,7 @@ const GarmentBuilder = ({
 
   const generateThumbnail = () => {
     // In a real app, this would generate a thumbnail image
-    return `data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="${selectedFabrics.top?.color || '#667eea'}"/></svg>`;
+    return `data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="${selectedFabrics.top?.color || '#2C3E50'}"/></svg>`;
   };
 
   const generateShareUrl = () => {
@@ -373,60 +456,101 @@ const GarmentBuilder = ({
 
   return (
     <div className="garment-builder">
-      {/* Top Bar */}
-      <div className="builder-header">
-        <div className="header-left">
-          <button className="back-btn professional" onClick={onBack}>
-            <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M19 12H5M12 19l-7-7 7-7"/>
-            </svg>
-            Back
-          </button>
-          <div className="builder-title">
-            <h1>Garment Design Studio</h1>
-            <span className="design-name">Professional Designer</span>
+      {/* First Bar - Logo and Brand */}
+      <div className="logo-bar">
+        <div className="logo-bar-content">
+          <div className="logo-brand-container" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
+            <img src="/logo.jpeg" alt="Studio H" className="logo" />
+            <div className="brand-info">
+              <span className="brand-name">H Labs</span>
+              <span className="company-tag">by Studio H</span>
+            </div>
+          </div>
+          <div className="user-info">
+            <span className="user-greeting">Hello, Designer!</span>
           </div>
         </div>
+      </div>
 
-        <div className="header-actions">
-          <button className="action-btn save-btn professional" onClick={handleSaveDesign}>
-            <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>
-            </svg>
-            Save Design
-          </button>
-          <div className="preview-group">
+      {/* Second Bar - Navigation and Actions */}
+      <div className="actions-bar">
+        <div className="actions-bar-content">
+          <div className="nav-section">
+            <button className="back-btn" onClick={onBack}>
+              <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M19 12H5M12 19l-7-7 7-7"/>
+              </svg>
+              Back to Projects
+            </button>
+            <div className="divider"></div>
+            {isEditingTitle ? (
+              <input
+                type="text"
+                value={editingTitle}
+                onChange={handleTitleChange}
+                onKeyDown={handleTitleKeyDown}
+                onBlur={handleTitleBlur}
+                className="project-title-input"
+                autoFocus
+              />
+            ) : (
+              <span 
+                className="project-title editable" 
+                onClick={handleTitleClick}
+                title="Click to edit project name"
+              >
+                {projectName || 'Untitled Design'}
+              </span>
+            )}
+          </div>
+
+          <div className="actions-section">
+            <button className="action-btn save-btn" onClick={handleSaveDesign}>
+              <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>
+              </svg>
+              Save
+            </button>
             <button 
-              className="action-btn preview-btn professional" 
-              onClick={() => setShowPreview(true)}
-              title="View design preview"
+              className={`action-btn preview-btn ${!canUsePreview() ? 'disabled' : ''}`}
+              onClick={handlePreviewClick}
+              title={
+                user && user.isPaid 
+                  ? "View design preview (Unlimited)" 
+                  : user 
+                    ? `View design preview (${getRemainingPreviews() || 0} free previews remaining)` 
+                    : "View design preview (Login required)"
+              }
             >
-              <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
                 <circle cx="12" cy="12" r="3"/>
               </svg>
               Preview
+              {user && !user.isPaid && (
+                <span className="preview-count">
+                  ({getRemainingPreviews()}/2)
+                </span>
+              )}
             </button>
-          </div>
-          <div className="export-group">
             <button 
-              className="action-btn export-btn professional" 
+              className="action-btn export-btn" 
               onClick={() => handleExport('HTML')}
-              title="Export design document with settings and image"
+              title="Export design"
             >
-              <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                 <polyline points="7,10 12,15 17,10"/>
                 <line x1="12" y1="15" x2="12" y2="3"/>
               </svg>
-              Export Design
+              Export
             </button>
             <button 
-              className="action-btn compare-btn professional" 
+              className="action-btn compare-btn" 
               onClick={() => setShowCompare(true)}
-              title="Compare design versions"
+              title="Compare designs"
             >
-              <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M3 12h18m-9-9v18"/>
                 <path d="M8 8l4-4 4 4"/>
                 <path d="M8 16l4 4 4-4"/>
@@ -434,10 +558,10 @@ const GarmentBuilder = ({
               Compare
             </button>
             <button 
-              className="action-btn share-btn professional" 
+              className="action-btn share-btn" 
               onClick={handleShare}
             >
-              <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2">
+              <svg width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M4 12v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8"/>
                 <polyline points="16,6 12,2 8,6"/>
                 <line x1="12" y1="2" x2="12" y2="15"/>
@@ -488,7 +612,7 @@ const GarmentBuilder = ({
             onClick={() => setRightPanelCollapsed(!rightPanelCollapsed)}
             title={rightPanelCollapsed ? 'Expand Fabric Catalog' : 'Collapse Fabric Catalog'}
           >
-{rightPanelCollapsed ? '‹' : '›'}
+            {rightPanelCollapsed ? '‹' : '›'}
           </button>
         </div>
       </div>
@@ -540,7 +664,9 @@ const GarmentBuilder = ({
                     designOptions={modalDesignOptions}
                     selectedFabrics={modalSelectedFabrics}
                     onGenerateRef={setGenerateImageFunction}
-                    key={`${JSON.stringify(modalDesignOptions)}_${JSON.stringify(modalSelectedFabrics)}`}
+                    refreshProjectThumbnail={refreshProjectThumbnail}
+                    projectId={projectId}
+                    key="modal-mockup"
                   />
                 </div>
               </div>
@@ -550,13 +676,19 @@ const GarmentBuilder = ({
               <div className="modal-footer-left">
                 <button 
                   className="modal-btn generate-btn" 
-                  onClick={() => {
-                    if (generateImageFunction) {
-                      generateImageFunction();
+                  onClick={async () => {
+                    if (generateImageFunction && !isGeneratingFromButton) {
+                      setIsGeneratingFromButton(true);
+                      try {
+                        await generateImageFunction();
+                      } finally {
+                        setIsGeneratingFromButton(false);
+                      }
                     }
                   }}
+                  disabled={isGeneratingFromButton}
                 >
-                  Generate Design
+                  {isGeneratingFromButton ? 'Generating...' : 'Generate Design'}
                 </button>
                 {!settingsPanelCollapsed && (
                   <button 

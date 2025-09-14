@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
+import HeaderBar from '../HeaderBar';
 import './Auth.css';
 
 const Signup = () => {
@@ -40,8 +41,10 @@ const Signup = () => {
   };
 
   return (
-    <div className="auth-container">
-      <div className="auth-card">
+    <div className="auth-page">
+      <HeaderBar showActions={false} />
+      <div className="auth-container">
+        <div className="auth-card">
         <div className="auth-header">
           <h1>Create Account</h1>
           <p>Join Garment Design Studio</p>
@@ -108,6 +111,7 @@ const Signup = () => {
             Already have an account? <Link to="/login">Sign in</Link>
           </p>
         </div>
+      </div>
       </div>
     </div>
   );

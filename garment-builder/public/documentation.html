@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H Labs Garment Builder - Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #2d3561;
+            background: #f8fafc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #85C1E9 0%, #F4D03F 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .nav {
+            background: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .nav a {
+            color: #2d3561;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .nav a:hover {
+            background: #85C1E9;
+            color: white;
+        }
+
+        .content {
+            padding: 60px 0;
+        }
+
+        .section {
+            margin-bottom: 80px;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .section h2 {
+            font-size: 2.2rem;
+            margin-bottom: 30px;
+            color: #2d3561;
+            border-bottom: 3px solid #85C1E9;
+            padding-bottom: 15px;
+        }
+
+        .section h3 {
+            font-size: 1.5rem;
+            margin: 30px 0 20px 0;
+            color: #2C3E50;
+        }
+
+        .section h4 {
+            font-size: 1.2rem;
+            margin: 20px 0 15px 0;
+            color: #E67E22;
+        }
+
+        .section p, .section li {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .section ul, .section ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #85C1E9, #F4D03F);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .feature-card {
+            background: #f8fafc;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #85C1E9;
+        }
+
+        .feature-card h4 {
+            color: #2d3561;
+            margin-bottom: 15px;
+        }
+
+        .step {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #F4D03F;
+        }
+
+        .step h4 {
+            color: #2d3561;
+            margin-bottom: 10px;
+        }
+
+        .code {
+            background: #2d3561;
+            color: #85C1E9;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+
+        .warning {
+            background: #fef3cd;
+            border: 1px solid #F4D03F;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .success {
+            background: #d1fae5;
+            border: 1px solid #10b981;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            background: #2d3561;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 25px;
+            }
+            
+            .nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>H Labs Garment Builder</h1>
+            <p>Complete Guide to Professional Garment Design</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul>
+                <li><a href="#getting-started">Getting Started</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#design-process">Design Process</a></li>
+                <li><a href="#fabrics">Fabric Management</a></li>
+                <li><a href="#projects">Project Management</a></li>
+                <li><a href="#export">Export & Share</a></li>
+                <li><a href="#troubleshooting">Troubleshooting</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="container">
+            <section id="getting-started" class="section">
+                <h2>🚀 Getting Started</h2>
+                
+                <div class="highlight">
+                    <h3>Welcome to H Labs Garment Builder!</h3>
+                    <p>Transform your creative vision into professional garment designs with our comprehensive design studio. Whether you're a fashion designer, tailor, or clothing brand, our platform provides everything you need to create, visualize, and perfect your designs.</p>
+                </div>
+
+                <h3>Quick Start Guide</h3>
+                
+                <div class="step">
+                    <h4>Step 1: Create Your Account</h4>
+                    <p>Sign up for your free account to access all design tools and save your projects securely in the cloud.</p>
+                </div>
+
+                <div class="step">
+                    <h4>Step 2: Choose Your Design Type</h4>
+                    <p>Select from our extensive garment library including:</p>
+                    <ul>
+                        <li><strong>Traditional Indian Wear:</strong> Kurtas, Lehengas, Sarees, Anarkalis</li>
+                        <li><strong>Western Wear:</strong> Dresses, Tops, Skirts, Pants</li>
+                        <li><strong>Custom Designs:</strong> Create your own unique patterns</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <h4>Step 3: Start Designing</h4>
+                    <p>Use our intuitive drag-and-drop interface to apply fabrics, adjust measurements, and customize every detail of your garment.</p>
+                </div>
+            </section>
+
+            <section id="features" class="section">
+                <h2>✨ Platform Features</h2>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>🎨 Professional Design Studio</h4>
+                        <p>Industry-grade tools for creating detailed garment specifications with precision measurements and professional standards.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>🧵 Extensive Fabric Library</h4>
+                        <p>Access thousands of fabric options including silk, cotton, chiffon, and specialty materials with realistic textures and patterns.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>📐 Smart Measurement System</h4>
+                        <p>Built-in sizing calculator that automatically adjusts patterns based on standard or custom measurements.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>👗 Real-time Visualization</h4>
+                        <p>See your designs come to life with our advanced rendering engine that shows realistic draping and fabric behavior.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>💾 Cloud-based Projects</h4>
+                        <p>Save, organize, and access your designs from anywhere with automatic cloud synchronization.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>📤 Multi-format Export</h4>
+                        <p>Export your designs in various formats including PDF patterns, technical specifications, and high-resolution images.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="design-process" class="section">
+                <h2>🎯 Design Process</h2>
+
+                <h3>Creating Your First Design</h3>
+
+                <div class="step">
+                    <h4>1. Select Garment Type</h4>
+                    <p>Choose from our comprehensive garment library:</p>
+                    <ul>
+                        <li><strong>Kurti:</strong> Traditional and contemporary styles</li>
+                        <li><strong>Lehenga:</strong> Bridal, party, and casual variations</li>
+                        <li><strong>Saree Blouse:</strong> Classic and modern cuts</li>
+                        <li><strong>Anarkali:</strong> Floor-length and knee-length options</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <h4>2. Configure Basic Settings</h4>
+                    <ul>
+                        <li><strong>Neckline:</strong> Round, V-neck, boat neck, high neck</li>
+                        <li><strong>Sleeves:</strong> Full sleeve, half sleeve, sleeveless, cap sleeves</li>
+                        <li><strong>Hem Style:</strong> Straight, A-line, flared, asymmetrical</li>
+                        <li><strong>Fit:</strong> Regular, slim, loose, tailored</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <h4>3. Apply Fabrics</h4>
+                    <p>Drag fabrics from the right panel onto different garment parts:</p>
+                    <ul>
+                        <li>Main body fabric</li>
+                        <li>Contrast panels</li>
+                        <li>Lining materials</li>
+                        <li>Embellishment areas</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <h4>4. Add Embellishments</h4>
+                    <p>Enhance your design with:</p>
+                    <ul>
+                        <li><strong>Embroidery:</strong> Traditional and contemporary patterns</li>
+                        <li><strong>Beadwork:</strong> Sequins, pearls, crystals</li>
+                        <li><strong>Lace & Trims:</strong> Borders, appliques, ribbons</li>
+                        <li><strong>Prints:</strong> Block prints, digital patterns</li>
+                    </ul>
+                </div>
+
+                <div class="success">
+                    <h4>💡 Pro Tip</h4>
+                    <p>Use the preview feature frequently to see how your changes affect the overall design. The real-time rendering helps you make informed decisions about fabric combinations and embellishment placement.</p>
+                </div>
+            </section>
+
+            <section id="fabrics" class="section">
+                <h2>🧵 Fabric Management</h2>
+
+                <h3>Fabric Categories</h3>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>Silk Fabrics</h4>
+                        <ul>
+                            <li>Banarasi Silk - Traditional wedding wear</li>
+                            <li>Kanjivaram - South Indian bridal silk</li>
+                            <li>Tussar Silk - Natural texture, lightweight</li>
+                            <li>Art Silk - Affordable silk alternative</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>Cotton Varieties</h4>
+                        <ul>
+                            <li>Cotton Silk - Blend of comfort and elegance</li>
+                            <li>Handloom Cotton - Traditional weaves</li>
+                            <li>Printed Cotton - Modern patterns and designs</li>
+                            <li>Organic Cotton - Sustainable option</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>Designer Fabrics</h4>
+                        <ul>
+                            <li>Chiffon - Flowing, lightweight drape</li>
+                            <li>Georgette - Textured, semi-sheer</li>
+                            <li>Net - Structured, formal occasions</li>
+                            <li>Velvet - Luxurious, winter wear</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>Custom Upload</h4>
+                        <p>Upload your own fabric images (JPG, PNG) up to 5MB. Ensure high resolution (1024x1024px) for best results.</p>
+                    </div>
+                </div>
+
+                <div class="warning">
+                    <h4>⚠️ Fabric Selection Tips</h4>
+                    <ul>
+                        <li>Consider the garment's intended use and season</li>
+                        <li>Match fabric weight with design complexity</li>
+                        <li>Test color combinations using the preview feature</li>
+                        <li>Account for fabric drape and structure</li>
+                    </ul>
+                </div>
+
+                <h3>Custom Fabric Upload</h3>
+                <p>To upload your own fabrics:</p>
+                <ol>
+                    <li>Click "Upload Custom Fabric" in the fabric panel</li>
+                    <li>Select high-resolution images (recommended: 1024x1024px)</li>
+                    <li>Add fabric details: name, type, care instructions</li>
+                    <li>Save to your personal fabric library</li>
+                </ol>
+            </section>
+
+            <section id="projects" class="section">
+                <h2>📁 Project Management</h2>
+
+                <h3>Creating and Organizing Projects</h3>
+
+                <div class="step">
+                    <h4>Project Creation</h4>
+                    <p>Create new projects with descriptive names and organize them by:</p>
+                    <ul>
+                        <li>Collection (e.g., "Summer 2024", "Bridal Collection")</li>
+                        <li>Client name for custom orders</li>
+                        <li>Garment type for easy browsing</li>
+                        <li>Status (Draft, In Progress, Completed)</li>
+                    </ul>
+                </div>
+
+                <div class="step">
+                    <h4>Version Control</h4>
+                    <p>Each project automatically saves versions, allowing you to:</p>
+                    <ul>
+                        <li>Revert to previous design iterations</li>
+                        <li>Compare different fabric combinations</li>
+                        <li>Track design evolution over time</li>
+                        <li>Maintain backup copies</li>
+                    </ul>
+                </div>
+
+                <h3>Collaboration Features</h3>
+                <p>Share projects with team members and clients:</p>
+                <ul>
+                    <li><strong>View-only links:</strong> Share designs for feedback</li>
+                    <li><strong>Comment system:</strong> Collect structured feedback</li>
+                    <li><strong>Approval workflow:</strong> Track design approvals</li>
+                    <li><strong>Client portal:</strong> Dedicated space for client reviews</li>
+                </ul>
+            </section>
+
+            <section id="export" class="section">
+                <h2>📤 Export & Share</h2>
+
+                <h3>Export Formats</h3>
+
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>📄 Technical Specifications</h4>
+                        <p>Detailed PDF with measurements, construction notes, and fabric requirements for manufacturers.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>🖼️ High-Resolution Images</h4>
+                        <p>PNG/JPG exports suitable for presentations, portfolios, and marketing materials.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>📋 Bill of Materials</h4>
+                        <p>Complete list of fabrics, quantities, and costs for production planning.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <h4>🔗 Share Links</h4>
+                        <p>Generate secure links for client reviews and team collaboration.</p>
+                    </div>
+                </div>
+
+                <h3>Print-Ready Patterns</h3>
+                <p>Export professional patterns ready for cutting:</p>
+                <ul>
+                    <li>Industry-standard seam allowances</li>
+                    <li>Grain line indicators</li>
+                    <li>Notch and placement marks</li>
+                    <li>Size grading information</li>
+                </ul>
+
+                <div class="success">
+                    <h4>✅ Quality Assurance</h4>
+                    <p>All exports are generated at professional resolution and include comprehensive construction details for seamless manufacturing.</p>
+                </div>
+            </section>
+
+            <section id="troubleshooting" class="section">
+                <h2>🔧 Troubleshooting</h2>
+
+                <h3>Common Issues and Solutions</h3>
+
+                <div class="step">
+                    <h4>Fabric Not Applying to Garment</h4>
+                    <p><strong>Solution:</strong> Ensure you're dragging the fabric onto the correct garment part. Look for the blue highlight indicating a valid drop zone.</p>
+                </div>
+
+                <div class="step">
+                    <h4>Design Not Saving</h4>
+                    <p><strong>Solution:</strong> Check your internet connection and ensure you're logged in. The system auto-saves every 30 seconds when connected.</p>
+                </div>
+
+                <div class="step">
+                    <h4>Preview Not Loading</h4>
+                    <p><strong>Solution:</strong> Refresh your browser and clear cache. Ensure you're using a supported browser (Chrome, Firefox, Safari, Edge).</p>
+                </div>
+
+                <div class="step">
+                    <h4>Custom Fabric Upload Failed</h4>
+                    <p><strong>Solution:</strong> Verify image size (max 5MB) and format (JPG, PNG). Reduce file size if necessary using image compression tools.</p>
+                </div>
+
+                <h3>System Requirements</h3>
+                <ul>
+                    <li><strong>Browser:</strong> Chrome 90+, Firefox 88+, Safari 14+, Edge 90+</li>
+                    <li><strong>Internet:</strong> Stable broadband connection (minimum 5 Mbps recommended)</li>
+                    <li><strong>Display:</strong> 1280x720 minimum resolution (1920x1080 recommended)</li>
+                    <li><strong>Memory:</strong> 4GB RAM minimum (8GB recommended for complex designs)</li>
+                </ul>
+
+                <h3>Getting Help</h3>
+                <div class="warning">
+                    <h4>Need Assistance?</h4>
+                    <p>Contact our support team:</p>
+                    <ul>
+                        <li><strong>Email:</strong> support@hlabs.com</li>
+                        <li><strong>Live Chat:</strong> Available Monday-Friday, 9 AM - 6 PM IST</li>
+                        <li><strong>Video Tutorials:</strong> Complete library at docs.hlabs.com/tutorials</li>
+                        <li><strong>Community Forum:</strong> Connect with other designers</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 H Labs by Studio H. All rights reserved.</p>
+            <p>Empowering designers to create extraordinary garments.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Highlight current section in navigation
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('.nav a');
+            
+            let currentSection = '';
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+    <style>
+        .nav a.active {
+            background: #85C1E9;
+            color: white;
+        }
+    </style>
+</body>
+</html>

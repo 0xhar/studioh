@@ -140,8 +140,8 @@
 }
 
 .preview-btn.professional:hover {
-  background: #2563eb;
-  border-color: #2563eb;
+  background: var(--primary-teal);
+  border-color: var(--primary-teal);
   box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
 }
 

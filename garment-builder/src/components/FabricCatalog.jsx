@@ -21,7 +21,7 @@ const FabricCatalog = ({ onFabricSelect }) => {
     { id: 6, name: 'Black Net with Gold', type: 'net', pattern: 'geometric', color: 'black', image: null, colorHex: '#000000' },
     { id: 7, name: 'Pink Cotton Printed', type: 'cotton', pattern: 'printed', color: 'pink', image: null, colorHex: '#ec4899' },
     { id: 8, name: 'Orange Kanjivaram', type: 'silk', pattern: 'traditional', color: 'orange', image: null, colorHex: '#ea580c' },
-    { id: 9, name: 'Purple Banarasi', type: 'silk', pattern: 'zari', color: 'purple', image: null, colorHex: '#7c3aed' },
+    { id: 9, name: 'Coral Banarasi', type: 'silk', pattern: 'zari', color: 'coral', image: null, colorHex: '#E67E22' },
     { id: 10, name: 'Cream Tussar', type: 'silk', pattern: 'plain', color: 'cream', image: null, colorHex: '#fef3c7' },
     { id: 11, name: 'Peacock Blue Handloom', type: 'cotton', pattern: 'stripes', color: 'blue', image: null, colorHex: '#0369a1' },
     { id: 12, name: 'Wine Red Satin', type: 'satin', pattern: 'plain', color: 'red', image: null, colorHex: '#991b1b' },
@@ -32,7 +32,7 @@ const FabricCatalog = ({ onFabricSelect }) => {
 
   const fabricTypes = ['silk', 'cotton', 'chiffon', 'georgette', 'velvet', 'brocade', 'net', 'satin', 'custom'];
   const patterns = ['plain', 'floral', 'geometric', 'stripes', 'printed', 'traditional', 'zari', 'custom'];
-  const colors = ['blue', 'red', 'green', 'gold', 'white', 'black', 'pink', 'orange', 'purple', 'cream', 'custom'];
+  const colors = ['blue', 'red', 'green', 'gold', 'white', 'black', 'pink', 'orange', 'coral', 'cream', 'custom'];
 
   const filteredFabrics = fabricCatalog.filter(fabric => {
     const matchesSearch = fabric.name.toLowerCase().includes(searchTerm.toLowerCase());
@@ -103,7 +103,9 @@ const FabricCatalog = ({ onFabricSelect }) => {
   return (
     <div className="fabric-catalog">
       <div className="catalog-header">
-        <h2>Fabric Selection</h2>
+        <div className="header-left">
+          <span className="catalog-title">Fabrics</span>
+        </div>
         <div className="catalog-tabs">
           <button 
             className={`tab-btn ${activeTab === 'upload' ? 'active' : ''}`}

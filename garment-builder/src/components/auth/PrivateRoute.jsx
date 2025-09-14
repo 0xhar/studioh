@@ -11,7 +11,7 @@ const PrivateRoute = ({ children }) => {
         justifyContent: 'center', 
         alignItems: 'center', 
         height: '100vh',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: 'linear-gradient(135deg, #2C3E50 0%, #E67E22 100%)',
         color: 'white',
         fontSize: '1.2rem'
       }}>

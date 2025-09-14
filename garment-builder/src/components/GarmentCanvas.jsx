@@ -163,12 +163,6 @@ const GarmentCanvas = ({ designOptions, selectedFabrics, onDrop }) => {
 
   return (
     <div className="garment-canvas">
-      <div className="canvas-header">
-        <h3>Design Canvas - {currentGarment.parts.find(p => p.id)?.name || 'Custom Garment'}</h3>
-        <div className="canvas-info">
-          <span>Drag fabrics from the right panel to garment parts</span>
-        </div>
-      </div>
       
       <div className="canvas-area" ref={canvasRef}>
         <div className="canvas-container" style={{ transform: `scale(${zoomLevel})` }}>
@@ -187,16 +181,16 @@ const GarmentCanvas = ({ designOptions, selectedFabrics, onDrop }) => {
           {/* Grid origin marker */}
           {showGrid && (
             <>
-              <circle cx="0" cy="0" r="4" fill="#667eea" opacity="0.6" />
-              <text x="10" y="15" fontSize="10" fill="#667eea" opacity="0.6">Origin (0,0)</text>
+              <circle cx="0" cy="0" r="4" fill="#2C3E50" opacity="0.6" />
+              <text x="10" y="15" fontSize="10" fill="#2C3E50" opacity="0.6">Origin (0,0)</text>
             </>
           )}
           
           {/* Center lines */}
           {showGrid && (
             <>
-              <line x1="300" y1="0" x2="300" y2="700" stroke="#764ba2" strokeWidth="1" strokeDasharray="5,5" opacity="0.4" />
-              <line x1="0" y1="350" x2="600" y2="350" stroke="#764ba2" strokeWidth="1" strokeDasharray="5,5" opacity="0.4" />
+              <line x1="300" y1="0" x2="300" y2="700" stroke="#E67E22" strokeWidth="1" strokeDasharray="5,5" opacity="0.4" />
+              <line x1="0" y1="350" x2="600" y2="350" stroke="#E67E22" strokeWidth="1" strokeDasharray="5,5" opacity="0.4" />
             </>
           )}
         </svg>

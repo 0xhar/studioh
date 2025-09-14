@@ -10,7 +10,7 @@
 }
 
 .canvas-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--complementary-navy) 0%, var(--complementary-coral) 100%);
   color: white;
   padding: 20px;
   display: flex;
@@ -71,7 +71,7 @@
 }
 
 .garment-part:hover {
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
   transform: scale(1.02);
 }
@@ -91,7 +91,7 @@
 
 .garment-part.has-fabric {
   border-style: solid;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -155,19 +155,19 @@
 .design-feature {
   position: absolute;
   background: rgba(102, 126, 234, 0.3);
-  border: 1px solid #667eea;
+  border: 1px solid var(--complementary-navy);
   pointer-events: none;
 }
 
 .design-feature.neckline {
-  border: 2px solid #667eea;
+  border: 2px solid var(--complementary-navy);
   background: rgba(102, 126, 234, 0.2);
 }
 
 .sleeve-indicator {
   position: absolute;
   background: rgba(102, 126, 234, 0.2);
-  border: 1px solid #667eea;
+  border: 1px solid var(--complementary-navy);
   border-radius: 4px;
   pointer-events: none;
 }
@@ -181,7 +181,7 @@
 }
 
 .fit-indicator {
-  background: #667eea;
+  background: var(--complementary-navy);
   color: white;
   font-size: 0.7rem;
   font-weight: bold;
@@ -278,9 +278,9 @@
 }
 
 .control-btn:hover:not(:disabled) {
-  background: #667eea;
+  background: var(--complementary-navy);
   color: white;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
   transform: translateY(-1px);
 }
 
@@ -290,9 +290,9 @@
 }
 
 .control-btn.active {
-  background: #667eea;
+  background: var(--complementary-navy);
   color: white;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
 }
 
 .zoom-display {
@@ -315,7 +315,7 @@
 
 .grid-size-select:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--complementary-navy);
 }
 
 /* Responsive adjustments */
